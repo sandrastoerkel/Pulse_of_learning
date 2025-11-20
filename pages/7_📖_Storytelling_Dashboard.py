@@ -756,45 +756,7 @@ def main():
                         st.info("⚖️ Fast ausgeglichen")
                     else:
                         st.warning("⚠️ Angst ist stärker")
-                    
-                    # ========== SECTION 7: Was heißt das für dein Projekt? ==========
-                    st.markdown("### 💡 Was bedeutet das für dein Projekt?")
-                    
-                    st.markdown("""
-                    **Für deine YouTube-Analyse morgen:**
-                    """)
-                    
-                    # Dynamische Empfehlungen basierend auf Werten
-                    recommendations = []
-                    
-                    if mean_anxmat > 0.3:
-                        recommendations.append("🎯 **Suche Videos zu**: 'Mathe-Angst überwinden' (ANXMAT ist erhöht)")
-                    
-                    if mean_matheff < -0.3:
-                        recommendations.append("🎯 **Suche Videos zu**: 'Mathe-Selbstvertrauen aufbauen' (MATHEFF ist niedrig)")
-                    
-                    if std_anxmat > 1.3:
-                        recommendations.append("🎯 **Fokus auf**: Videos für ängstliche Schüler (große Unterschiede!)")
-                    
-                    if corr > 0.4:
-                        recommendations.append(f"✅ **Wichtig**: Selbstvertrauen korreliert stark mit Leistung ({corr:.2f}) - Videos können wirklich helfen!")
-                    
-                    if not recommendations:
-                        recommendations.append("🎯 **Allgemein**: Suche Videos die Selbstvertrauen stärken und Angst reduzieren")
-                    
-                    for rec in recommendations:
-                        st.markdown(rec)
-                    
-                    st.markdown(f"""
-                    
-                    **Deine Ausgangslage:**
-                    - {n_students:,} Schüler analysiert
-                    - Durchschnittliche Matheleistung: {mean_math:.0f} Punkte
-                    - Korrelation Confidence ↔ Leistung: {corr:.3f}
-                    
-                    → Nutze diese Zahlen morgen als **Baseline** für deine YouTube-Strategien!
-                    """)
-            
+
             elif len(selected_vars) >= 1:
                 # Zeige Durchschnitte für einzelne Variablen
                 st.subheader("📊 Durchschnittswerte")
