@@ -1,0 +1,2403 @@
+{
+  "DISCLIM": {
+    "sektion": "1.2.2",
+    "titel": "Disziplin im Klassenzimmer im Mathematikunterricht",
+    "beschreibung": "Disziplin im Klassenzimmer",
+    "fragestamm": "Wie häufig kommt bei euch im Mathematikunterricht Folgendes vor?",
+    "items": [
+      {
+        "code": "ST273Q01JA",
+        "text": "Die Schülerinnen und Schüler hören der Lehrkraft nicht zu."
+      },
+      {
+        "code": "ST273Q02JA",
+        "text": "Im Klassenzimmer ist es oft laut und es geht drunter und drüber."
+      },
+      {
+        "code": "ST273Q03JA",
+        "text": "Die Lehrkraft muss lange warten, bis die Schülerinnen und Schüler ruhig werden."
+      },
+      {
+        "code": "ST273Q04JA",
+        "text": "Die Schülerinnen und Schüler können nicht ungestört arbeiten."
+      },
+      {
+        "code": "ST273Q05JA",
+        "text": "Die Schülerinnen und Schüler fangen erst lange nach Beginn der Stunde an zu arbeiten."
+      },
+      {
+        "code": "ST273Q06JA",
+        "text": "Die Schülerinnen und Schüler werden durch die Verwendung digitaler Medien abgelenkt (z. B. Smartphones, Webseiten, Apps)."
+      },
+      {
+        "code": "ST273Q07JA",
+        "text": "Die Schülerinnen und Schüler werden durch Mitschülerinnen und Mitschüler abgelenkt, die digitale Medien verwenden (z. B. Smartphones, Webseiten, Apps)."
+      }
+    ]
+  },
+  "TEACHSUP": {
+    "sektion": "1.2.3",
+    "titel": "Konstruktive Unterstützung durch die Lehrkraft",
+    "beschreibung": "Unterstützung durch die Lehrkraft im Mathematikunterricht",
+    "fragestamm": "Wie häufig kommt bei euch im Mathematikunterricht Folgendes vor?",
+    "items": [
+      {
+        "code": "ST270Q01JA",
+        "text": "Die Lehrkraft interessiert sich für den Lernfortschritt jeder/jedes einzelnen Schülerin/Schülers."
+      },
+      {
+        "code": "ST270Q02",
+        "text": "JA Die Lehrkraft unterstützt zusätzlich, wenn die Schülerinnen und Schüler Hilfe brauchen."
+      },
+      {
+        "code": "ST270Q03",
+        "text": "JA Die Lehrkraft unterstützt die Schülerinnen und Schüler beim Lernen."
+      },
+      {
+        "code": "ST270Q04",
+        "text": "JA Die Lehrkraft erklärt etwas so lange, bis es die Schülerinnen und Schüler verstanden haben."
+      }
+    ]
+  },
+  "COGACRCO": {
+    "sektion": "1.2.4",
+    "titel": "Lehrkraftaktivitäten im Mathematikunterricht – Problemlösen",
+    "beschreibung": "Kognitive Aktivierung im Mathematikunterricht: Problemlösen fördern",
+    "fragestamm": "Wie häufig hat deine Lehrkraft in diesem Schuljahr folgende Dinge im Mathematikun-",
+    "items": [
+      {
+        "code": "ST285Q01JA",
+        "text": "Die Lehrkraft forderte uns auf, mathematische Probleme zu lösen, ohne etwas zu berechnen."
+      },
+      {
+        "code": "ST285Q02JA",
+        "text": "Die Lehrkraft forderte uns auf, zu erklären, wie wir ein mathematisches Problem gelöst haben."
+      },
+      {
+        "code": "ST285Q03JA",
+        "text": "Die Lehrkraft forderte uns auf, zu erklären, welche Annahmen wir bei der Lösung eines mathematischen Problems getroffen haben."
+      },
+      {
+        "code": "ST285Q04JA",
+        "text": "Die Lehrkraft forderte uns auf, unsere Gedankengänge bei der Lösung eines mathematischen Problems zu erklären."
+      },
+      {
+        "code": "ST285Q05JA",
+        "text": "Die Lehrkraft forderte uns auf, unsere Antwort zur Lösung eines mathematischen Problems zu begründen."
+      },
+      {
+        "code": "ST285Q06JA",
+        "text": "Die Lehrkraft forderte uns auf, über den Zusammenhang zwischen neuen und alten mathematischen Unterrichtsthemen nachzudenken."
+      },
+      {
+        "code": "ST285Q07JA",
+        "text": "Die Lehrkraft ermutigte uns, darüber nachzudenken, wie man ein mathematisches Problem anders lösen könnte, als es im Unterricht gezeigt wurde."
+      },
+      {
+        "code": "ST285Q08JA",
+        "text": "Die Lehrkraft sagte uns, es weiter zu versuchen, selbst wenn uns eine Mathematikaufgabe Schwierigkeiten bereitete."
+      },
+      {
+        "code": "ST285Q09JA",
+        "text": "Die Lehrkraft brachte uns bei, Regeln zur Lösung mathematischer Probleme zu erlernen und anzuwenden."
+      }
+    ]
+  },
+  "COGACMCO": {
+    "sektion": "1.2.5",
+    "titel": "Lehrkraftaktivitäten im Mathematikunterricht – Anwendungsbezug",
+    "beschreibung": "Kognitive Aktivierung im Mathematikunterricht: zu mathemati- schem Denken ermutigen",
+    "fragestamm": "Wie häufig hat deine Lehrkraft in diesem Schuljahr folgende Dinge im Mathematikun-",
+    "items": [
+      {
+        "code": "ST283Q01JA",
+        "text": "Die Lehrkraft forderte uns auf, über alltägliche Probleme nachzudenken, die mit dem, was wir gerade in Mathematik gelernt haben, gelöst werden können."
+      },
+      {
+        "code": "ST283Q02JA",
+        "text": "Die Lehrkraft zeigte uns, wie Mathematik in unserem Alltag nützlich sein kann."
+      },
+      {
+        "code": "ST283Q03JA",
+        "text": "Die Lehrkraft ermutigte uns, „mathematisch zu denken”."
+      },
+      {
+        "code": "ST283Q04JA",
+        "text": "Die Lehrkraft brachte uns bei, wie wir mit mathematischer Logik neue Situationen angehen können."
+      },
+      {
+        "code": "ST283Q05JA",
+        "text": "Die Lehrkraft zeigte uns, wie einige scheinbar schwierige Probleme leichter gelöst werden können, wenn man die Organisation des Zahlensystems versteht."
+      },
+      {
+        "code": "ST283Q06JA",
+        "text": "Die Lehrkraft gab uns Alltagsprobleme, die Zahlen beinhalten, und forderte uns auf, für diese Situation eine Entscheidung zu treffen."
+      },
+      {
+        "code": "ST283Q07JA",
+        "text": "Die Lehrkraft fragte uns, wie verschiedene Themen mit einem allgemeineren mathematischen Konzept zusammenhängen."
+      },
+      {
+        "code": "ST283Q08JA",
+        "text": "Die Lehrkraft ermunterte uns, darüber nachzudenken, wie man ein Problem aus dem Alltag mathematisch lösen kann."
+      },
+      {
+        "code": "ST283Q09JA",
+        "text": "Die Lehrkraft erklärte, wie verschiedene mathematische Konzepte in einem größeren Kontext zusammenhängen."
+      }
+    ]
+  },
+  "EXPOFA": {
+    "sektion": "1.2.6",
+    "titel": "Häufigkeit einfacher mathematischer Aufgaben",
+    "beschreibung": "Auseinandersetzung mit formaler und angewandter Mathematik",
+    "fragestamm": "Wie häufig wurden dir während deiner Schulzeit diese Arten von Mathematikaufga-",
+    "items": [
+      {
+        "code": "ST275Q01WA",
+        "text": "Mit Hilfe eines Zugfahrplanes ausrechnen, wie lange man von einem Ort zum anderen brauchen würde"
+      },
+      {
+        "code": "ST275Q02WA",
+        "text": "Ausrechnen, um wie viel teurer ein Computer wird, wenn man die Mehrwertsteuer darauf schlägt 1. Schüler*innenfragebogen 58 ST275Q03WA Ausrechnen, wie viele Quadratmeter Fliesen du bräuchtest, um einen Fußboden damit auszulegen"
+      },
+      {
+        "code": "ST275Q04WA",
+        "text": "Wissenschaftliche Tabellen in einem Artikel verstehen"
+      },
+      {
+        "code": "ST275Q05WA",
+        "text": "Eine Gleichung wie 6x²+5=29 lösen"
+      },
+      {
+        "code": "ST275Q06WA",
+        "text": "Auf einer Karte mit einem Maßstab von 1:10 000 die tatsächliche Entfernung zwischen zwei Orten bestimmen"
+      },
+      {
+        "code": "ST275Q07WA",
+        "text": "Eine Gleichung wie 2(x+3) = (x+3) (x -3) lösen"
+      },
+      {
+        "code": "ST275Q08WA",
+        "text": "Den wöchentlichen Verbrauch eines Elektrogerätes berechnen"
+      },
+      {
+        "code": "ST275Q09WA",
+        "text": "Eine Gleichung wie 3x+5=17 lösen"
+      }
+    ]
+  },
+  "EXPO21ST": {
+    "sektion": "1.2.7",
+    "titel": "Häufigkeit mathematischer Transferaufgaben",
+    "beschreibung": "Auseinandersetzung mit mathematischem Problemlösen und Aufgaben des 21. Jahrhunderts",
+    "fragestamm": "Wie häufig wurden dir während deiner Schulzeit diese Arten von Mathematikaufga-",
+    "items": [
+      {
+        "code": "ST276Q01JA",
+        "text": "Mathematische Informationen aus Diagrammen, Grafiken oder Simulationen entnehmen"
+      },
+      {
+        "code": "ST276Q02JA",
+        "text": "Mathematische Lösungen im Kontext eines Alltagsproblems interpretieren"
+      },
+      {
+        "code": "ST276Q03JA",
+        "text": "Das Konzept der statistischen Streuung anwenden, um eine Entscheidung zu treffen"
+      },
+      {
+        "code": "ST276Q04JA",
+        "text": "Mathematische Aspekte eines Alltagsproblems identifizieren"
+      },
+      {
+        "code": "ST276Q05JA",
+        "text": "Einschränkungen und Annahmen hinter mathematischen Modellen erkennen"
+      },
+      {
+        "code": "ST276Q06JA",
+        "text": "Eine Situation anhand von Variablen, Symbolen und Diagrammen mathematisch darstellen"
+      },
+      {
+        "code": "ST276Q07JA",
+        "text": "Die Signifikanz beobachteter Muster in Daten beurteilen"
+      },
+      {
+        "code": "ST276Q08JA",
+        "text": "Programmieren von Computern"
+      },
+      {
+        "code": "ST276Q09JA",
+        "text": "Mit mathematischen Computerprogrammen arbeiten (z. B. Tabellenkalkulationen, Programmier -Software, grafikfähige Taschenrechner)"
+      },
+      {
+        "code": "ST276Q10JA",
+        "text": "Die Eigenschaften eines unregelmäßig geformten Objekts berechnen 1. Schüler*innenfragebogen 60 Absolute und prozentuale Kategorienhäufigkeiten Variable 1 2 3 4 NA n p n p n p n p n p"
+      },
+      {
+        "code": "ST276Q01JA",
+        "text": "996 16.3 991 16.2 292 4.8 96 1.6 3,741 61."
+      },
+      {
+        "code": "ST276Q02JA",
+        "text": "511 8.4 962 15.7 638 10.4 256 4.2 3,749 61."
+      },
+      {
+        "code": "ST276Q03JA",
+        "text": "178 2.9 615 10.1 691 11.3 850 13.9 3,782 61."
+      },
+      {
+        "code": "ST276Q04JA",
+        "text": "339 5.5 893 14.6 794 13.0 344 5.6 3,746 61."
+      },
+      {
+        "code": "ST276Q05JA",
+        "text": "275 4.5 952 15.6 799 13.1 383 6.3 3,707 60."
+      },
+      {
+        "code": "ST276Q06JA",
+        "text": "985 16.1 916 15.0 325 5.3 144 2.4 3,746 61."
+      },
+      {
+        "code": "ST276Q07JA",
+        "text": "171 2.8 728 11.9 847 13.8 598 9.8 3,772 61."
+      },
+      {
+        "code": "ST276Q08JA",
+        "text": "100 1.6 285 4.7 502 8.2 1,471 24.1 3,758 61."
+      },
+      {
+        "code": "ST276Q09JA",
+        "text": "348 5.7 620 10.1 708 11.6 683 11.2 3,757 61."
+      },
+      {
+        "code": "ST276Q10JA",
+        "text": "491 8.0 864 14.1 662 10.8 351 5.7 3,748 61."
+      }
+    ]
+  },
+  "MATHEFF": {
+    "sektion": "1.2.8",
+    "titel": "Mathematikbezogene Selbstwirksamkeitserwartung",
+    "beschreibung": "Mathematikbezogene Selbstwirksamkeitserwartung: formale und angewandte Mathematik",
+    "fragestamm": "Wie zuversichtlich bist du, dass du die folgenden Mathematikaufgaben lösen kannst?",
+    "items": [
+      {
+        "code": "ST290Q01WA",
+        "text": "Mit Hilfe eines Zugfahrplanes ausrechnen, wie lange man von einem Ort zum anderen brauchen würde"
+      },
+      {
+        "code": "ST290Q02WA",
+        "text": "Ausrechnen, um wie viel teurer ein Computer wird, wenn man die Mehrwertsteuer darauf schlägt"
+      },
+      {
+        "code": "ST290Q03WA",
+        "text": "Ausrechnen, wie viele Quadratmeter Fliesen du bräuchtest, um einen Fußboden damit auszulegen"
+      },
+      {
+        "code": "ST290Q04WA",
+        "text": "Wissenschaftliche Tabellen in einem Artikel verstehen"
+      },
+      {
+        "code": "ST290Q05WA",
+        "text": "Eine Gleichung wie 6x²+5=29 lösen"
+      },
+      {
+        "code": "ST290Q06WA",
+        "text": "Auf einer Karte mit einem Maßstab von 1:10 000 die tatsächliche Entfernung zwischen zwei Orten bestimmen"
+      },
+      {
+        "code": "ST290Q07WA",
+        "text": "Eine Gleichung wie 2(x+3)=(x+3)(x -3) lösen"
+      },
+      {
+        "code": "ST290Q08WA",
+        "text": "Den wöchentlichen Verbrauch eines Elektrogerätes berechnen"
+      },
+      {
+        "code": "ST290Q09WA",
+        "text": "Eine Gleichung wie 3x+5=17 lösen"
+      }
+    ]
+  },
+  "MATHEF21": {
+    "sektion": "0.20",
+    "titel": "1. -3. 2.  .",
+    "beschreibung": "Mathematikbezogene Selbstwirksamkeitserwartung 21st Century Skills",
+    "fragestamm": "Wie zuversichtlich bist du, dass du die folgenden Mathematikaufgaben lösen kannst?",
+    "items": [
+      {
+        "code": "ST291Q01JA",
+        "text": "Mathematische Informationen aus Diagrammen, Grafiken oder Simulationen entnehmen"
+      },
+      {
+        "code": "ST291Q02JA",
+        "text": "Mathematische Lösungen im Kontext eines Alltagsproblems interpretieren"
+      },
+      {
+        "code": "ST291Q03JA",
+        "text": "Das Konzept der statistischen Streuung anwenden, um eine Entscheidung zu treffen"
+      },
+      {
+        "code": "ST291Q04JA",
+        "text": "Mathematische Aspekte eines Alltagsproblems identifizieren"
+      },
+      {
+        "code": "ST291Q05JA",
+        "text": "Einschränkungen und Annahmen hinter mathematischen Modellen erkennen"
+      },
+      {
+        "code": "ST291Q06JA",
+        "text": "Eine Situation anhand von Variablen, Symbolen und Diagrammen mathematisch darstellen"
+      },
+      {
+        "code": "ST291Q07JA",
+        "text": "Die Signifikanz beobachteter Muster in Daten beurteilen"
+      },
+      {
+        "code": "ST291Q08JA",
+        "text": "Programmieren von Computern"
+      },
+      {
+        "code": "ST291Q09JA",
+        "text": "Mit mathematischen Computerprogrammen arbeiten (z. B. Tabellenkalkulationen, Programmier -Software, grafikfähige Taschenrechner)"
+      },
+      {
+        "code": "ST291Q10JA",
+        "text": "Die Eigenschaften eines unregelmäßig geformten Objekts berechnen"
+      }
+    ]
+  },
+  "FAMCON": {
+    "sektion": "1.2.10",
+    "titel": "Vertrautheit mathematischer Begriffe",
+    "beschreibung": "Subjektive Vertrautheit mit mathematischen Konzepten",
+    "fragestamm": "Denke an mathematische Konzepte: wie vertraut bist du mit den folgenden Begrif-",
+    "items": [
+      {
+        "code": "ST289Q01WA",
+        "text": "Divisor"
+      },
+      {
+        "code": "ST289Q02JA",
+        "text": "Kreisfläche"
+      },
+      {
+        "code": "ST289Q03WA",
+        "text": "Konjunktivistische Skalierung"
+      },
+      {
+        "code": "ST289Q04JA",
+        "text": "Kongruente Figuren"
+      },
+      {
+        "code": "ST289Q05WA",
+        "text": "Lineare Gleichung"
+      },
+      {
+        "code": "ST289Q06JA",
+        "text": "Satz des Pythagoras 1. Schüler*innenfragebogen 65 ST289Q07JA Lineare Ungleichungen"
+      },
+      {
+        "code": "ST289Q08WA",
+        "text": "Komplexe Zahl"
+      },
+      {
+        "code": "ST289Q09WA",
+        "text": "Exponentialfunktion"
+      },
+      {
+        "code": "ST289Q10WA",
+        "text": "Wahrscheinlichkeit"
+      },
+      {
+        "code": "ST289Q11WA",
+        "text": "Erklärender Bruch"
+      },
+      {
+        "code": "ST289Q14JA",
+        "text": "Dreidimensionale Geometrie"
+      }
+    ]
+  },
+  "MATHPERS": {
+    "sektion": "1.2.11",
+    "titel": "Schüler*innenaktivitäten im Mathematikunterricht",
+    "beschreibung": "Proaktives Lernverhalten in Mathematik",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du Folgendes gemacht?",
+    "items": [
+      {
+        "code": "ST293Q01JA",
+        "text": "Ich beteiligte mich im Mathematikunterricht aktiv an Gruppendiskussionen."
+      },
+      {
+        "code": "ST293Q02JA",
+        "text": "Ich hörte meiner Mathematiklehrkraft aufmerksam zu."
+      },
+      {
+        "code": "ST293Q03JA",
+        "text": "Ich strengte mich beim Bearbeiten meiner Aufgaben für den Mathematikunterricht an."
+      },
+      {
+        "code": "ST293Q04JA",
+        "text": "Ich gab auf, wenn ich die Mathematikthemen, die wir gerade im Unterricht behandelt hatten, nicht verstand."
+      },
+      {
+        "code": "ST293Q05JA",
+        "text": "Ich nahm mir Zeit, um für den Mathematikunterricht zu lernen."
+      },
+      {
+        "code": "ST293Q06JA",
+        "text": "Ich stellte Fragen, wenn ich die Mathematikthemen, die wir gerade im Unterricht behandelt hatten, nicht verstand."
+      },
+      {
+        "code": "ST293Q07JA",
+        "text": "Ich verlor während des Mathematikunterrichts das Interesse."
+      },
+      {
+        "code": "ST293Q08JA",
+        "text": "Ich versuchte, neu Gelerntes mit dem zu verbinden, was ich in früheren Mathematikstunden gelernt hatte."
+      },
+      {
+        "code": "ST293Q09JA",
+        "text": "Ich begann sofort mit der Bearbeitung der Mathematikaufgaben. 1. Schüler*innenfragebogen 67 Absolute und prozentuale Kategorienhäufigkeiten Variable 1 2 3 4 5 NA n p n p n p n p n p n p"
+      },
+      {
+        "code": "ST293Q01JA",
+        "text": "397 6.5 579 9.5 617 10.1 531 8.7 470 7.7 3,522 57."
+      },
+      {
+        "code": "ST293Q02JA",
+        "text": "71 1.2 136 2.2 371 6.1 942 15.4 1,090 17.8 3,506 57."
+      },
+      {
+        "code": "ST293Q03JA",
+        "text": "77 1.3 209 3.4 487 8.0 997 16.3 827 13.5 3,519 57."
+      },
+      {
+        "code": "ST293Q04JA",
+        "text": "866 14.2 717 11.7 514 8.4 339 5.5 197 3.2 3,483 56."
+      },
+      {
+        "code": "ST293Q05JA",
+        "text": "314 5.1 510 8.3 671 11.0 692 11.3 445 7.3 3,484 57."
+      },
+      {
+        "code": "ST293Q06JA",
+        "text": "290 4.7 504 8.2 536 8.8 701 11.5 625 10.2 3,460 56."
+      },
+      {
+        "code": "ST293Q07JA",
+        "text": "460 7.5 745 12.2 604 9.9 533 8.7 336 5.5 3,438 56."
+      },
+      {
+        "code": "ST293Q08JA",
+        "text": "277 4.5 451 7.4 667 10.9 795 13.0 460 7.5 3,466 56."
+      },
+      {
+        "code": "ST293Q09JA",
+        "text": "151 2.5 371 6.1 566 9.3 876 14.3 671 11.0 3,481 56."
+      }
+    ]
+  },
+  "ANXMAT": {
+    "sektion": "1.2.12",
+    "titel": "Mathematikbezogene Ängstlichkeit",
+    "beschreibung": "Mathematikbezogene Ängstlichkeit",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST292Q01JA",
+        "text": "Ich mache mir oft Sorgen, dass es für mich im Mathematikunterricht schwierig sein wird."
+      },
+      {
+        "code": "ST292Q02JA",
+        "text": "Ich bin sehr angespannt, wenn ich Mathematikhausaufgaben machen muss."
+      },
+      {
+        "code": "ST292Q03JA",
+        "text": "Beim Lösen von mathematischen Problemen werde ich sehr nervös."
+      },
+      {
+        "code": "ST292Q04JA",
+        "text": "Ich fühle mich beim Lösen mathematischer Probleme hilflos."
+      },
+      {
+        "code": "ST292Q05JA",
+        "text": "Ich mache mir Sorgen, dass ich in Mathematik schlechte Noten bekomme."
+      },
+      {
+        "code": "ST292Q06JA",
+        "text": "Ich habe Angst davor, in Mathematik zu versagen."
+      }
+    ]
+  },
+  "RELATST": {
+    "sektion": "1.3.1",
+    "titel": "Wahrnehmung und Beziehung zu Lehrkräften",
+    "beschreibung": "Qualität der Schüler*innen- Lehrkräfte -Beziehung",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST267Q01JA",
+        "text": "Die Lehrkräfte an meiner Schule behandeln mich mit Respekt."
+      },
+      {
+        "code": "ST267Q02JA",
+        "text": "Wenn ich bedrückt in den Unterricht käme, würden sich meine Lehrkräfte Sorgen machen."
+      },
+      {
+        "code": "ST267Q03JA",
+        "text": "Wenn ich meine Schule in drei Jahren wieder besuchen würde, würden sich meine Lehrkräfte freuen, mich zu sehen."
+      },
+      {
+        "code": "ST267Q04JA",
+        "text": "Ich fühle mich durch die Lehrkräfte an meiner Schule eingeschüchtert."
+      },
+      {
+        "code": "ST267Q05JA",
+        "text": "Wenn mich meine Lehrkräfte fragen, wie es mir geht, sind sie wirklich an meiner Antwort interessiert. 1. Schüler*innenfragebogen 75 ST267Q06JA Die Lehrkräfte an meiner Schule sind freundlich zu mir."
+      },
+      {
+        "code": "ST267Q07JA",
+        "text": "Die Lehrkräfte an meiner Schule sind am Wohlbefinden ihrer Schülerinnen und Schüler interessiert."
+      },
+      {
+        "code": "ST267Q08JA",
+        "text": "Die Lehrkräfte an meiner Schule sind gemein zu mir."
+      }
+    ]
+  },
+  "BELONG": {
+    "sektion": "1.3.2",
+    "titel": "Gefühl der Zugehörigkeit",
+    "beschreibung": "Gefühl der Zugehörigkeit zur eigenen Schule",
+    "fragestamm": "Wenn du über deine Schule nachdenkst: Wie sehr stimmst du den folgenden Aussa-",
+    "items": [
+      {
+        "code": "ST034Q01TA",
+        "text": "Ich fühle mich als Außenseiterin/Außenseiter (oder von Dingen ausgeschlossen) in der Schule."
+      },
+      {
+        "code": "ST034Q02TA",
+        "text": "In der Schule finde ich leicht neue Freundinnen und Freunde."
+      },
+      {
+        "code": "ST034Q03TA",
+        "text": "Ich habe das Gefühl, zu dieser Schule zu gehören."
+      },
+      {
+        "code": "ST034Q04TA",
+        "text": "Ich fühle mich unbehaglich und fehl am Platz in dieser Schule."
+      },
+      {
+        "code": "ST034Q05TA",
+        "text": "Andere Schülerinnen und Schüler scheinen mich zu mögen."
+      },
+      {
+        "code": "ST034Q06TA",
+        "text": "Ich fühle mich in dieser Schule einsam."
+      }
+    ]
+  },
+  "BULLIED": {
+    "sektion": "1.3.3",
+    "titel": "Erfahrung, gemobbt zu werden",
+    "beschreibung": "Erfahrung, gemobbt zu werden",
+    "fragestamm": "Wie häufig hast du in der Schule in den letzten 12 Monaten Folgendes erlebt?",
+    "items": [
+      {
+        "code": "ST038Q03NA",
+        "text": "Andere Schülerinnen/Schüler haben mich ausgeschlossen."
+      },
+      {
+        "code": "ST038Q04NA",
+        "text": "Andere Schülerinnen/Schüler haben sich über mich lustig gemacht."
+      },
+      {
+        "code": "ST038Q05NA",
+        "text": "Ich wurde von anderen Schülerinnen/Schülern bedroht."
+      },
+      {
+        "code": "ST038Q06NA",
+        "text": "Andere Schülerinnen/Schüler haben mir Dinge weggenommen oder Dinge, die mir gehören, zerstört."
+      },
+      {
+        "code": "ST038Q07NA",
+        "text": "Ich wurde von anderen Schülerinnen/Schülern geschlagen oder herumgeschubst."
+      },
+      {
+        "code": "ST038Q08NA",
+        "text": "Andere Schülerinnen/Schüler haben gemeine Gerüchte über mich verbreitet. 1. Schüler*innenfragebogen 78 ST038Q09JA Ich war auf dem Schulgelände in eine körperliche Auseinandersetzung verwickelt."
+      },
+      {
+        "code": "ST038Q10JA",
+        "text": "Ich bin zu Hause geblieben, weil ich mich in der Schule nicht sicher fühlte."
+      },
+      {
+        "code": "ST038Q11JA",
+        "text": "Ich habe jemandem an der Schule Geld gegeben, weil er oder sie mich bedrohte."
+      }
+    ]
+  },
+  "GROSAGR": {
+    "sektion": "1.3.4",
+    "titel": "Statisches Selbstbild",
+    "beschreibung": "Growth Mindset",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST263Q02JA",
+        "text": "An seiner Intelligenz kann man nicht wirklich etwas verändern."
+      },
+      {
+        "code": "ST263Q04JA",
+        "text": "Einige sind einfach nicht gut in Mathematik, egal, wie viel sie lernen."
+      },
+      {
+        "code": "ST263Q06JA",
+        "text": "Einige sind einfach nicht gut in Deutsch, egal, wie viel sie lernen."
+      },
+      {
+        "code": "ST263Q08JA",
+        "text": "An seiner Kreativität kann man nicht wirklich etwas verändern."
+      }
+    ]
+  },
+  "PERSEVAGR": {
+    "sektion": "1.4.1",
+    "titel": "Selbsteinschätzung der persönlichen Ausdauer und Beharrlichkeit",
+    "beschreibung": "Ausdauer",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST307Q01JA",
+        "text": "Ich bleibe an einer Aufgabe dran, bis sie beendet ist."
+      },
+      {
+        "code": "ST307Q02JA",
+        "text": "Ich strenge mich zusätzlich an, wenn eine Arbeit herausfordernd wird."
+      },
+      {
+        "code": "ST307Q03JA",
+        "text": "Ich beende einmal begonnene Aufgaben, selbst wenn sie langweilig werden. 1. Schüler*innenfragebogen 91 ST307Q04JA Ich höre auf, wenn eine Arbeit zu schwierig wird."
+      },
+      {
+        "code": "ST307Q05JA",
+        "text": "Ich habe mehr Ausdauer als die meisten Menschen, die ich kenne."
+      },
+      {
+        "code": "ST307Q06JA",
+        "text": "Ich gebe auf, wenn ich Fehler gemacht habe."
+      },
+      {
+        "code": "ST307Q07JA",
+        "text": "Ich höre mit den Hausaufgaben auf, wenn sie zu lange dauern."
+      },
+      {
+        "code": "ST307Q08JA",
+        "text": "Ich führe Aufgaben zu Ende, selbst wenn sie schwieriger werden, als ich dachte."
+      },
+      {
+        "code": "ST307Q09JA",
+        "text": "Ich beende, was ich begonnen habe."
+      },
+      {
+        "code": "ST307Q10JA",
+        "text": "Ich gebe leicht auf."
+      }
+    ]
+  },
+  "CURIOAGR": {
+    "sektion": "1.4.3",
+    "titel": "Neugier und Lernmotivation im schulischen Kontext",
+    "beschreibung": "Neugierde",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST301Q01JA",
+        "text": "Ich bin neugierig auf viele verschiedene Dinge."
+      },
+      {
+        "code": "ST301Q02JA",
+        "text": "Ich stelle gerne Fragen."
+      },
+      {
+        "code": "ST301Q03JA",
+        "text": "Es frustriert mich, wenn ich die Einzelheiten zu einem Thema lernen muss."
+      },
+      {
+        "code": "ST301Q04JA",
+        "text": "Ich möchte wissen, wie Dinge funktionieren."
+      },
+      {
+        "code": "ST301Q05JA",
+        "text": "Ich liebe es, in der Schule neue Dinge zu lernen. 1. Schüler*innenfragebogen 94 ST301Q06JA Ich bin neugieriger als die meisten Menschen, die ich kenne."
+      },
+      {
+        "code": "ST301Q07JA",
+        "text": "Ich entwickle gerne Hypothesen und überprüfe sie anhand meiner Beobachtungen."
+      },
+      {
+        "code": "ST301Q08JA",
+        "text": "Ich finde es langweilig, neue Dinge zu lernen."
+      },
+      {
+        "code": "ST301Q09JA",
+        "text": "Ich verbringe Zeit damit, mehr Informationen zu Themen zu suchen, die mich interessieren."
+      },
+      {
+        "code": "ST301Q10JA",
+        "text": "Ich mag es, neue Dinge zu lernen."
+      }
+    ]
+  },
+  "COOPAGR": {
+    "sektion": "1.4.4",
+    "titel": "Soziale Interaktion und Teamfähigkeit im Schulalltag",
+    "beschreibung": "Kooperation",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST343Q01JA",
+        "text": "Ich helfe gerne anderen."
+      },
+      {
+        "code": "ST343Q02JA",
+        "text": "Ich ärgere mich, wenn ich mit anderen Kompromisse eingehen muss."
+      },
+      {
+        "code": "ST343Q03JA",
+        "text": "Ich arbeite gut mit anderen zusammen."
+      },
+      {
+        "code": "ST343Q04JA",
+        "text": "Ich fange mit anderen Streit an."
+      },
+      {
+        "code": "ST343Q05JA",
+        "text": "Ich vermeide es, mit anderen Schülerinnen oder Schülern zusammenzuarbeiten."
+      },
+      {
+        "code": "ST343Q06JA",
+        "text": "Ich bin bereit, jedem Menschen zu helfen."
+      },
+      {
+        "code": "ST343Q07JA",
+        "text": "Ich neige dazu, egoistisch zu sein."
+      },
+      {
+        "code": "ST343Q08JA",
+        "text": "Ich arbeite besser, wenn ich Teil eines Teams bin."
+      },
+      {
+        "code": "ST343Q09JA",
+        "text": "Ich arbeite gerne mit meinen Mitschülerinnen und Mitschülern zusammen."
+      },
+      {
+        "code": "ST343Q10JA",
+        "text": "Ich streite viel. 1. Schüler*innenfragebogen 96 Absolute und prozentuale Kategorienhäufigkeiten Variable 1 2 3 4 5 NA n p n p n p n p n p n p"
+      },
+      {
+        "code": "ST343Q01JA",
+        "text": "47 0.8 74 1.2 196 3.2 1,220 19.9 1,064 17.4 3,515 57."
+      },
+      {
+        "code": "ST343Q02JA",
+        "text": "292 4.8 894 14.6 809 13.2 468 7.7 148 2.4 3,505 57."
+      },
+      {
+        "code": "ST343Q03JA",
+        "text": "61 1.0 176 2.9 287 4.7 1,369 22.4 845 13.8 3,378 55."
+      },
+      {
+        "code": "ST343Q04JA",
+        "text": "972 15.9 975 15.9 420 6.9 205 3.4 61 1.0 3,483 56."
+      },
+      {
+        "code": "ST343Q05JA",
+        "text": "924 15.1 904 14.8 444 7.3 294 4.8 114 1.9 3,436 56."
+      },
+      {
+        "code": "ST343Q06JA",
+        "text": "65 1.1 174 2.8 352 5.8 1,118 18.3 855 14.0 3,552 58."
+      },
+      {
+        "code": "ST343Q07JA",
+        "text": "649 10.6 889 14.5 558 9.1 345 5.6 86 1.4 3,589 58."
+      },
+      {
+        "code": "ST343Q08JA",
+        "text": "196 3.2 466 7.6 691 11.3 796 13.0 394 6.4 3,573 58."
+      },
+      {
+        "code": "ST343Q09JA",
+        "text": "142 2.3 261 4.3 458 7.5 1,062 17.4 712 11.6 3,481 56."
+      },
+      {
+        "code": "ST343Q10JA",
+        "text": "1,004 16.4 857 14.0 463 7.6 206 3.4 83 1.4 3,503 57."
+      }
+    ]
+  },
+  "EMPATAGR": {
+    "sektion": "1.4.5",
+    "titel": "Empathie und zwischenmenschliches Verständnis",
+    "beschreibung": "Empathie",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST311Q01JA",
+        "text": "Mir ist egal, was mit anderen Leuten passiert."
+      },
+      {
+        "code": "ST311Q02JA",
+        "text": "Ich kann spüren, wie sich andere fühlen."
+      },
+      {
+        "code": "ST311Q03JA",
+        "text": "Mir ist wichtig, dass es meinen Freundinnen und Freunden gut geht."
+      },
+      {
+        "code": "ST311Q04JA",
+        "text": "Ich kann die Dinge aus der Sicht meiner Freundinnen und Freunde sehen."
+      },
+      {
+        "code": "ST311Q05JA",
+        "text": "Ich ignoriere die Gefühle anderer."
+      },
+      {
+        "code": "ST311Q06JA",
+        "text": "Ich habe mehr Mitgefühl als die meisten Menschen, die ich kenne."
+      },
+      {
+        "code": "ST311Q07JA",
+        "text": "Mir fällt es schwer wahrzunehmen, was andere denken."
+      },
+      {
+        "code": "ST311Q08JA",
+        "text": "Ich kann die Bedürfnisse anderer voraussagen."
+      },
+      {
+        "code": "ST311Q09JA",
+        "text": "Ich bin bedrückt, wenn anderen schlimme Dinge passieren."
+      },
+      {
+        "code": "ST311Q10JA",
+        "text": "Ich verstehe, was andere wollen."
+      }
+    ]
+  },
+  "ASSERAGR": {
+    "sektion": "1.4.8",
+    "titel": "Führungsqualitäten und Einflussnahme in Gruppen",
+    "beschreibung": "Durchsetzungsvermögen",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST305Q01JA",
+        "text": "Ich fühle mich wohl, wenn ich in einer Gruppe die Führung übernehmen kann."
+      },
+      {
+        "code": "ST305Q02JA",
+        "text": "Ich weiß, wie ich andere überzeugen kann, das zu tun, was ich will."
+      },
+      {
+        "code": "ST305Q03JA",
+        "text": "Es gefällt mir, andere zu führen."
+      },
+      {
+        "code": "ST305Q04JA",
+        "text": "In Gruppendiskussionen behalte ich meine Meinung für mich."
+      },
+      {
+        "code": "ST305Q05JA",
+        "text": "Ich spreche mit anderen über Dinge, die mir wichtig sind."
+      },
+      {
+        "code": "ST305Q06JA",
+        "text": "Ich ergreife die Initiative, wenn ich mit meinen Mitschülerinnen und Mitschülern zusammenarbeite."
+      },
+      {
+        "code": "ST305Q07JA",
+        "text": "Ich warte darauf, dass andere die Führung übernehmen."
+      },
+      {
+        "code": "ST305Q08JA",
+        "text": "Es fällt mir schwer, Menschen zu beeinflussen."
+      },
+      {
+        "code": "ST305Q09JA",
+        "text": "Ich möchte Verantwortung tragen."
+      },
+      {
+        "code": "ST305Q10JA",
+        "text": "Ich möchte in meiner Klasse eine Anführerin/ein Anführer sein."
+      }
+    ]
+  },
+  "STRESAGR": {
+    "sektion": "1.4.9",
+    "titel": "Umgang mit Stress und emotionale Belastbarkeit",
+    "beschreibung": "Stressresistenz",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST345Q01JA",
+        "text": "Ich werde leicht nervös."
+      },
+      {
+        "code": "ST345Q02JA",
+        "text": "Ich bin entspannter als die meisten Menschen, die ich kenne."
+      },
+      {
+        "code": "ST345Q03JA",
+        "text": "Ich mache mir über viele Dinge Sorgen."
+      },
+      {
+        "code": "ST345Q04JA",
+        "text": "Ich gerate leicht in Panik."
+      },
+      {
+        "code": "ST345Q05JA",
+        "text": "Ich kann unter Druck arbeiten."
+      },
+      {
+        "code": "ST345Q06JA",
+        "text": "Ich bleibe in Stresssituationen ruhig."
+      },
+      {
+        "code": "ST345Q07JA",
+        "text": "Ich bin vor Prüfungen nervös."
+      },
+      {
+        "code": "ST345Q08JA",
+        "text": "Ich kann mich schnell erholen, nachdem etwas Schlimmes passiert ist."
+      },
+      {
+        "code": "ST345Q09JA",
+        "text": "Ich kann gut mit Stress umgehen."
+      },
+      {
+        "code": "ST345Q10JA",
+        "text": "Ich habe vor vielen Dingen Angst."
+      }
+    ]
+  },
+  "EMOCOAGR": {
+    "sektion": "1.4.10",
+    "titel": "Emotionale Selbstregulation und Stimmungsstabilität",
+    "beschreibung": "Emotionale Kontrolle",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST313Q01JA",
+        "text": "Ich halte meine Gefühle unter Kontrolle."
+      },
+      {
+        "code": "ST313Q02JA",
+        "text": "Ich werde leicht wütend."
+      },
+      {
+        "code": "ST313Q03JA",
+        "text": "Meine Stimmung ändert sich oft."
+      },
+      {
+        "code": "ST313Q04JA",
+        "text": "Ich reagiere übertrieben auf jede Kleinigkeit in meinem Leben."
+      },
+      {
+        "code": "ST313Q05JA",
+        "text": "Ich bleibe selbst in angespannten Situationen ruhig. 1. Schüler*innenfragebogen 105 ST313Q06JA Ich bin leicht verärgert."
+      },
+      {
+        "code": "ST313Q07JA",
+        "text": "Ich weiß, wie ich meine Gefühle kontrollieren kann."
+      },
+      {
+        "code": "ST313Q08JA",
+        "text": "Meine Emotionen sind unvorhersehbar."
+      },
+      {
+        "code": "ST313Q09JA",
+        "text": "Ich bin launisch."
+      },
+      {
+        "code": "ST313Q10JA",
+        "text": "Ich bin schnell frustriert."
+      }
+    ]
+  },
+  "ICTSCH": {
+    "sektion": "1.5.3",
+    "titel": "Häufigkeit der Nutzung digitaler Medien in der Schule",
+    "beschreibung": "Verfügbarkeit digitaler Medien in der Schule",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du die folgenden digitalen Medien in der Schule",
+    "items": []
+  },
+  "ICTHOME": {
+    "sektion": "1.5.4",
+    "titel": "Häufigkeit der Nutzung digitaler Medien außerhalb der Schule",
+    "beschreibung": "Verfügbarkeit digitaler Medien außerhalb der Schule",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du die folgenden digitalen Medien außerhalb",
+    "items": []
+  },
+  "ICTQUAL": {
+    "sektion": "1.5.5",
+    "titel": "Verfügbarkeit, Zugang und Qualität digitaler Medien in der Schule",
+    "beschreibung": "Qualität des Zugangs zu digitalen Medien",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "ICTSUBJ": {
+    "sektion": "1.5.6",
+    "titel": "Häufigkeit der Nutzung digitaler Medien nach Schulfach",
+    "beschreibung": "Fachbezogene Nutzung digitaler Medien im Unterricht",
+    "fragestamm": "Wie häufig nutzt du in den folgenden Schulfächern digitale Medien?",
+    "items": []
+  },
+  "ICTENQ": {
+    "sektion": "1.5.7",
+    "titel": "Nutzungsarten digitaler Medien für forschendes Lernen",
+    "beschreibung": "Nutzung digitaler Medien für forschendes Lernen",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du digitale Medien für folgende Aktivitäten ge-",
+    "items": []
+  },
+  "ICTFEED": {
+    "sektion": "1.5.8",
+    "titel": "Unterstützung und Feedback durch digitale Medien",
+    "beschreibung": "Unterstützung und Feedback durch digitale Medien",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du digitale Medien für folgende Aktivitäten ge-",
+    "items": []
+  },
+  "ICTOUT": {
+    "sektion": "0.4",
+    "titel": "0. -1. 2. 1, .6",
+    "beschreibung": "Nutzung von digitalen Medien für schulbezogene Aktivitäten außer- halb des Unterrichts",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du digitale Medien für folgende Aktivitäten ge-",
+    "items": []
+  },
+  "ICTWKDY": {
+    "sektion": "1.5.11",
+    "titel": "Häufigkeit der Nutzung digitaler Medien unter der Woche",
+    "beschreibung": "Nutzungshäufigkeit digitaler Medien unter der Woche",
+    "fragestamm": "Wie viel Zeit verbringst du an einem normalen Wochentag mit den folgenden Frei-",
+    "items": []
+  },
+  "ICTWKEND": {
+    "sektion": "1.5.12",
+    "titel": "Häufigkeit der Nutzung digitaler Medien am Wochenende",
+    "beschreibung": "Nutzungshäufigkeit digitaler Medien am Wochenende",
+    "fragestamm": "Wie viel Zeit verbringst du an einem normalen Wochenende mit den folgenden Frei-",
+    "items": []
+  },
+  "ICTREG": {
+    "sektion": "1.5.13",
+    "titel": "Meinungen der Schüler*innen zu Nutzungsregelungen für digitale Medien",
+    "beschreibung": "Meinungen der Schüler*innen zu Nutzungsregelungen für digitale Medien",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "ICTINFO": {
+    "sektion": "1.5.14",
+    "titel": "Praktiken in Bezug auf Online- Informationen",
+    "beschreibung": "Praktiken der Schüler*innen in Bezug auf Online-Informationen",
+    "fragestamm": "Wie sehr stimmst du den folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "ICTEFFIC": {
+    "sektion": "1.5.17",
+    "titel": "Selbstwirksamkeit in digitalen Kompetenzen",
+    "beschreibung": "Selbstwirksamkeit im Umgang mit digitalen Ressourcen",
+    "fragestamm": "Inwieweit kannst du die folgenden Aufgaben mithilfe von digitalen Medien erledigen?",
+    "items": []
+  },
+  "CREATEFF": {
+    "sektion": "1.6.1",
+    "titel": "Selbstwirksamkeitserwartung Kreativität",
+    "beschreibung": "Selbstwirksamkeitserwartung Kreativität",
+    "fragestamm": "Wie zuversichtlich bist du, wenn du folgende Dinge tun musst?",
+    "items": [
+      {
+        "code": "ST334Q01JA",
+        "text": "Kreative Ideen für Schulprojekte entwickeln"
+      },
+      {
+        "code": "ST334Q02JA",
+        "text": "Kreativ sein"
+      },
+      {
+        "code": "ST334Q03JA",
+        "text": "Kreative Geschichten erzählen"
+      },
+      {
+        "code": "ST334Q04JA",
+        "text": "Deine Ideen kreativ ausdrücken"
+      },
+      {
+        "code": "ST334Q05JA",
+        "text": "Kreativ zeichnen 1. Schüler*innenfragebogen 136 ST334Q06JA Viele gute Ideen für wissenschaftliche Experimente entwickeln"
+      },
+      {
+        "code": "ST334Q07JA",
+        "text": "Neue Dinge erfinden"
+      },
+      {
+        "code": "ST334Q08JA",
+        "text": "Viele Ideen entwickeln, um Meinungsverschiedenheiten zwischen Menschen zu lösen"
+      },
+      {
+        "code": "ST334Q09JA",
+        "text": "Soziale Probleme wie Umweltverschmutzung angehen"
+      },
+      {
+        "code": "ST334Q10JA",
+        "text": "Viele gute Ideen entwickeln, um Menschen in Not zu helfen"
+      }
+    ]
+  },
+  "CREATSCH": {
+    "sektion": "1.6.2",
+    "titel": "Kreatives Schul - und Klassenklima",
+    "beschreibung": "Kreatives schulisches Umfeld",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST335Q01JA",
+        "text": "Meine Lehrkräfte geben mir ausreichend Zeit, kreative Lösungen für Aufgaben zu entwickeln ."
+      },
+      {
+        "code": "ST335Q02JA",
+        "text": "Meine Lehrkräfte schätzen die Kreativität der Schülerinnen und Schüler."
+      },
+      {
+        "code": "ST335Q03JA",
+        "text": "Die Aktivitäten im Unterricht helfen mir, über neue Wege nachzudenken, um Probleme zu lösen."
+      },
+      {
+        "code": "ST335Q05JA",
+        "text": "Meine Mathematikaufgaben verlangen von mir, dass ich verschiedene Lösungen für ein Problem finde."
+      },
+      {
+        "code": "ST335Q06JA",
+        "text": "Meine Lehrkräfte ermutigen mich, originelle Antworten zu finden."
+      },
+      {
+        "code": "ST335Q07JA",
+        "text": "In der Schule bekomme ich Gelegenheit, meine Ideen auszudrücken."
+      }
+    ]
+  },
+  "CREATFAM": {
+    "sektion": "1.6.3",
+    "titel": "Kreatives soziales Umfeld",
+    "beschreibung": "Kreatives soziales Umfeld",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST336Q01JA",
+        "text": "Meine Freundinnen und Freunde sind offen für neue Ideen."
+      },
+      {
+        "code": "ST336Q03JA",
+        "text": "Meine Freundinnen und Freunde und ich geben einander Rückmeldungen zu unseren Ideen."
+      },
+      {
+        "code": "ST336Q04JA",
+        "text": "Meine Freundinnen und Freunde und ich regen einander an, neue Ideen zu entwickeln."
+      },
+      {
+        "code": "ST336Q05JA",
+        "text": "Meine Familie regt mich dazu an, Neues auszuprobieren."
+      },
+      {
+        "code": "ST336Q06JA",
+        "text": "Zu Hause werde ich dazu angeregt, meine Fantasie zu nutzen."
+      },
+      {
+        "code": "ST336Q07JA",
+        "text": "Gespräche, die ich zu Hause führe, helfen mir, neue Ideen zu entwickeln. 1. Schüler*innenfragebogen 139 Absolute und prozentuale Kategorienhäufigkeiten Variable 1 2 3 4 NA n p n p n p n p n p"
+      },
+      {
+        "code": "ST336Q01JA",
+        "text": "111 1.8 418 6.8 2,292 37.5 964 15.8 2,331 38."
+      },
+      {
+        "code": "ST336Q03JA",
+        "text": "142 2.3 538 8.8 2,094 34.2 1,022 16.7 2,320 37."
+      },
+      {
+        "code": "ST336Q04JA",
+        "text": "239 3.9 1,011 16.5 1,848 30.2 718 11.7 2,300 37."
+      },
+      {
+        "code": "ST336Q05JA",
+        "text": "275 4.5 895 14.6 1,716 28.1 860 14.1 2,370 38."
+      },
+      {
+        "code": "ST336Q06JA",
+        "text": "367 6.0 1,177 19.2 1,538 25.1 684 11.2 2,350 38."
+      },
+      {
+        "code": "ST336Q07JA",
+        "text": "370 6.0 927 15.2 1,609 26.3 898 14.7 2,312 37."
+      }
+    ]
+  },
+  "CREATAS": {
+    "sektion": "1.6.4",
+    "titel": "Kreative außerunterrichtliche Aktivitäten innerhalb der Schule",
+    "beschreibung": "Kreative Aktivitäten in der Schule",
+    "fragestamm": "Bitte gib für jede der untenstehenden Aktivitäten an, wie häufig du in deiner Schule",
+    "items": [
+      {
+        "code": "ST337Q01JA",
+        "text": "Kunstunterricht/künstlerische Aktivitäten (z. B. Malen, Zeichnen)"
+      },
+      {
+        "code": "ST337Q02JA",
+        "text": "Kreatives Schreiben"
+      },
+      {
+        "code": "ST337Q03JA",
+        "text": "Musikunterricht/musikalische Aktivitäten (z. B. Chor, Band)"
+      },
+      {
+        "code": "ST337Q04JA",
+        "text": "Debattier -AG"
+      },
+      {
+        "code": "ST337Q05JA",
+        "text": "Schauspiel -/Theaterunterricht"
+      },
+      {
+        "code": "ST337Q06JA",
+        "text": "Veröffentlichungen (z. B. Zeitung, Jahrbücher oder Jahresberichte, Literaturzeitschrift)"
+      },
+      {
+        "code": "ST337Q07JA",
+        "text": "Naturwissenschafts -AG"
+      },
+      {
+        "code": "ST337Q08JA",
+        "text": "Informatikunterricht/Programmieren"
+      }
+    ]
+  },
+  "CREATOOS": {
+    "sektion": "1.6.5",
+    "titel": "Kreative außerunterrichtliche Aktivitäten außerhalb der Schule",
+    "beschreibung": "Kreative Aktivitäten außerhalb der Schule",
+    "fragestamm": "Bitte gib für jede der untenstehenden Aktivitäten an, wie häufig du außerhalb der",
+    "items": [
+      {
+        "code": "ST338Q01JA",
+        "text": "Kunstunterricht/künstlerische Aktivitäten (z. B. Malen, Zeichnen)"
+      },
+      {
+        "code": "ST338Q02JA",
+        "text": "Kreatives Schreiben"
+      },
+      {
+        "code": "ST338Q03JA",
+        "text": "Musikunterricht/musikalische Aktivitäten (z. B. Chor, Band)"
+      },
+      {
+        "code": "ST338Q04JA",
+        "text": "Debattierklub"
+      },
+      {
+        "code": "ST338Q05JA",
+        "text": "Schauspiel -/Theaterunterricht"
+      },
+      {
+        "code": "ST338Q06JA",
+        "text": "Veröffentlichungen (z. B. Zeitung, Jahrbücher oder Jahresberichte, Literaturzeitschrift)"
+      },
+      {
+        "code": "ST338Q07JA",
+        "text": "Angebote im Bereich Naturwissenschaften"
+      },
+      {
+        "code": "ST338Q08JA",
+        "text": "Informatikunterricht/Programmieren 1. Schüler*innenfragebogen 142 Absolute und prozentuale Kategorienhäufigkeiten Variable 1 2 3 4 5 6 NA n p n p n p n p n p n p n p"
+      },
+      {
+        "code": "ST338Q01JA",
+        "text": "2,328 38.1 284 4.6 452 7.4 658 10.8 301 4.9 340 5.6 1,753 28."
+      },
+      {
+        "code": "ST338Q02JA",
+        "text": "2,619 42.8 331 5.4 382 6.2 316 5.2 192 3.1 506 8.3 1,770 28."
+      },
+      {
+        "code": "ST338Q03JA",
+        "text": "2,552 41.7 227 3.7 263 4.3 743 12.1 281 4.6 272 4.4 1,778 29."
+      },
+      {
+        "code": "ST338Q04JA",
+        "text": "3,191 52.2 107 1.7 100 1.6 118 1.9 54 0.9 752 12.3 1,794 29."
+      },
+      {
+        "code": "ST338Q05JA",
+        "text": "3,270 53.5 153 2.5 121 2.0 188 3.1 79 1.3 519 8.5 1,786 29."
+      },
+      {
+        "code": "ST338Q06JA",
+        "text": "3,283 53.7 164 2.7 122 2.0 134 2.2 71 1.2 565 9.2 1,777 29."
+      },
+      {
+        "code": "ST338Q07JA",
+        "text": "3,147 51.5 188 3.1 179 2.9 201 3.3 100 1.6 517 8.5 1,784 29."
+      },
+      {
+        "code": "ST338Q08JA",
+        "text": "2,875 47.0 211 3.4 253 4.1 346 5.7 167 2.7 482 7.9 1,782 29."
+      }
+    ]
+  },
+  "CREATOP": {
+    "sektion": "1.6.7",
+    "titel": "Kreativität und Interesse an kognitiven Herausforderungen",
+    "beschreibung": "Kreativität und Offenheit",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST340Q01JA",
+        "text": "Etwas Kreatives zu tun, erfüllt mich."
+      },
+      {
+        "code": "ST340Q02JA",
+        "text": "Ich bin sehr kreativ."
+      },
+      {
+        "code": "ST340Q03JA",
+        "text": "Ich erfinde gerne Geschichten."
+      },
+      {
+        "code": "ST340Q04JA",
+        "text": "Ich mag Spiele, die meine Kreativität herausfordern."
+      },
+      {
+        "code": "ST340Q05JA",
+        "text": "Ich mag Projekte, die kreative Lösungen erfordern."
+      },
+      {
+        "code": "ST340Q06JA",
+        "text": "Ich mag es, über neue Wege nachzudenken, um Probleme zu lösen."
+      },
+      {
+        "code": "ST340Q07JA",
+        "text": "Ich mag es, komplexe Probleme zu lösen."
+      },
+      {
+        "code": "ST340Q08JA",
+        "text": "Ich mag schulische Aufgaben, die herausfordernd sind."
+      },
+      {
+        "code": "ST340Q09JA",
+        "text": "Ich kann mehrere Lösungen für ein Problem vorschlagen."
+      },
+      {
+        "code": "ST340Q10JA",
+        "text": "Ich mag es, neue Dinge zu lernen."
+      }
+    ]
+  },
+  "OPENART": {
+    "sektion": "1.6.8",
+    "titel": "Offenheit gegenüber Kunst",
+    "beschreibung": "Offenheit gegenüber Kunst",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [
+      {
+        "code": "ST341Q01JA",
+        "text": "Ich schaffe gerne Kunstwerke."
+      },
+      {
+        "code": "ST341Q02JA",
+        "text": "Ich mag es, mich künstlerisch zu betätigen."
+      },
+      {
+        "code": "ST341Q03JA",
+        "text": "Ich drücke mich durch Kunst aus."
+      },
+      {
+        "code": "ST341Q04JA",
+        "text": "Ich denke über Filme nach, die ich gesehen habe."
+      },
+      {
+        "code": "ST341Q05JA",
+        "text": "Ich erkenne Schönheit in alltäglichen Dingen."
+      }
+    ]
+  },
+  "SCHSUST": {
+    "sektion": "1.7.2",
+    "titel": "Schulische Unterstützungsmaßnahmen während des Distanzunterrichts",
+    "beschreibung": "Schulische Unterstützung während des Distanzunterrichts",
+    "fragestamm": "Als in deinem Schulgebäude wegen der Coronakrise kein Unterricht stattfand, wie",
+    "items": [
+      {
+        "code": "ST348Q01JA",
+        "text": "Dir Lehrmaterial geschickt, damit du selbstständig lernen kannst"
+      },
+      {
+        "code": "ST348Q02JA",
+        "text": "Dir Aufgaben geschickt"
+      },
+      {
+        "code": "ST348Q03JA",
+        "text": "Material über ein Lern -Management -System oder eine Lernplattform der Schule hochgeladen (z. B. Moodle®, Microsoft® OneNote™, Google® Classroom ™)"
+      },
+      {
+        "code": "ST348Q04JA",
+        "text": "Sich bei dir gemeldet, um sich zu vergewissern, dass du deine Aufgaben erledigst"
+      },
+      {
+        "code": "ST348Q05JA",
+        "text": "Virtuellen Live -Unterricht über ein Videokommunikationsprogramm angeboten (z. B. Zoom ™, Skype ™, Google® Meet ™, Microsoft® Teams)"
+      },
+      {
+        "code": "ST348Q06JA",
+        "text": "Dich gebeten, fertige schulische Aufgaben abzugeben"
+      },
+      {
+        "code": "ST348Q07JA",
+        "text": "Dir nützliche Tipps zum eigenständigen Lernen gegeben"
+      },
+      {
+        "code": "ST348Q08JA",
+        "text": "Sich bei dir gemeldet, um zu fragen, wie es dir geht"
+      }
+    ]
+  },
+  "PROBSELF": {
+    "sektion": "1.7.6",
+    "titel": "Probleme beim Lernen während des Distanzunterrichts",
+    "beschreibung": "Probleme beim Lernen während des Distanzunterrichts",
+    "fragestamm": "Als in deinem Schulgebäude wegen der Coronakrise kein Unterricht stattfand, wie",
+    "items": [
+      {
+        "code": "ST352Q01JA",
+        "text": "Probleme mit dem Zugang zu einem digitalen Gerät, wenn ich eins brauchte"
+      },
+      {
+        "code": "ST352Q02JA",
+        "text": "Probleme mit dem Zugang zum Internet"
+      },
+      {
+        "code": "ST352Q03JA",
+        "text": "Probleme mit dem Zugang zu Schulmaterial (z. B. Papier, Stifte)"
+      },
+      {
+        "code": "ST352Q04JA",
+        "text": "Probleme, einen ruhigen Platz zum Lernen zu finden"
+      },
+      {
+        "code": "ST352Q05JA",
+        "text": "Probleme, Zeit zum Lernen zu finden, da ich im Haushalt oder bei der Betreuung von Geschwistern/Angehörigen helfen musste"
+      },
+      {
+        "code": "ST352Q06JA",
+        "text": "Probleme mich zu motivieren, die schulischen Aufgaben zu machen"
+      },
+      {
+        "code": "ST352Q07JA",
+        "text": "Probleme, meine schulischen Aufgaben zu verstehen"
+      },
+      {
+        "code": "ST352Q08JA",
+        "text": "Probleme jemanden zu finden, der mir bei meinen schulischen Aufgaben helfen könnte"
+      }
+    ]
+  },
+  "FAMSUPSL": {
+    "sektion": "1.7.7",
+    "titel": "Familiäre Unterstützung während des Distanzunterrichts",
+    "beschreibung": "Familiäre Unterstützung während des Distanzunterrichts",
+    "fragestamm": "Als in deinem Schulgebäude wegen der Coronakrise kein Unterricht stattfand, wie",
+    "items": [
+      {
+        "code": "ST353Q01JA",
+        "text": "Dir bei deinen schulischen Aufgaben geholfen"
+      },
+      {
+        "code": "ST353Q02JA",
+        "text": "Dich gefragt, was du gerade lernst"
+      },
+      {
+        "code": "ST353Q03JA",
+        "text": "Dir geholfen, einen Lernplan aufzustellen"
+      },
+      {
+        "code": "ST353Q04JA",
+        "text": "Dir geholfen, online auf Lehrmaterial zuzugreifen"
+      },
+      {
+        "code": "ST353Q05JA",
+        "text": "Überprüft, ob du deine schulischen Aufgaben erledigst"
+      },
+      {
+        "code": "ST353Q06JA",
+        "text": "Dir neue Inhalte erklärt"
+      },
+      {
+        "code": "ST353Q07JA",
+        "text": "Dir geholfen, zusätzliches Lernmaterial zu finden"
+      },
+      {
+        "code": "ST353Q08JA",
+        "text": "Dir neue Themen beigebracht, die nicht zu deinen schulischen Aufgaben gehören 1. Schüler*innenfragebogen 159 Absolute und prozentuale Kategorienhäufigkeiten Variable 1 2 3 4 NA n p n p n p n p n p"
+      },
+      {
+        "code": "ST353Q01JA",
+        "text": "487 8.0 920 15.0 473 7.7 207 3.4 4,029 65."
+      },
+      {
+        "code": "ST353Q02JA",
+        "text": "372 6.1 729 11.9 564 9.2 451 7.4 4,000 65."
+      },
+      {
+        "code": "ST353Q03JA",
+        "text": "1,245 20.4 446 7.3 229 3.7 127 2.1 4,069 66."
+      },
+      {
+        "code": "ST353Q04JA",
+        "text": "803 13.1 674 11.0 354 5.8 203 3.3 4,082 66."
+      },
+      {
+        "code": "ST353Q05JA",
+        "text": "592 9.7 642 10.5 454 7.4 383 6.3 4,045 66."
+      },
+      {
+        "code": "ST353Q06JA",
+        "text": "716 11.7 783 12.8 405 6.6 193 3.2 4,019 65."
+      },
+      {
+        "code": "ST353Q07JA",
+        "text": "905 14.8 653 10.7 314 5.1 187 3.1 4,057 66."
+      },
+      {
+        "code": "ST353Q08JA",
+        "text": "898 14.7 647 10.6 342 5.6 188 3.1 4,041 66."
+      }
+    ]
+  },
+  "FEELLAH": {
+    "sektion": "1.7.8",
+    "titel": "Stressresistenz/Stressempfinden während des Distanzunterrichts",
+    "beschreibung": "Gefühle während des Distanzunterrichts",
+    "fragestamm": "Als in deinem Schulgebäude wegen der Coronakrise kein Unterricht stattfand, wie",
+    "items": [
+      {
+        "code": "ST354Q01JA",
+        "text": "Ich habe mich einsam gefühlt."
+      },
+      {
+        "code": "ST354Q02JA",
+        "text": "Es hat mir Spaß gemacht, eigenständig zu lernen."
+      },
+      {
+        "code": "ST354Q03JA",
+        "text": "Meine Lehrkräfte waren erreichbar, wenn ich Hilfe brauchte (z. B. über virtuelle Sprechstunden, E -Mail, Chat)."
+      },
+      {
+        "code": "ST354Q04JA",
+        "text": "Ich habe mir Sorgen wegen der schulischen Aufgaben gemacht."
+      },
+      {
+        "code": "ST354Q05JA",
+        "text": "Ich war motiviert, zu lernen."
+      },
+      {
+        "code": "ST354Q06JA",
+        "text": "Ich war mit meinen schulischen Aufgaben im Rückstand."
+      },
+      {
+        "code": "ST354Q07JA",
+        "text": "Ich habe meine Fähigkeiten bei der Nutzung digitaler Geräte für Lernzwecke verbessert."
+      },
+      {
+        "code": "ST354Q08JA",
+        "text": "Meine Lehrkräfte waren gut auf den Distanzunterricht vorbereitet."
+      },
+      {
+        "code": "ST354Q09JA",
+        "text": "Ich war gut darauf vorbereitet, selbstständig zu lernen."
+      },
+      {
+        "code": "ST354Q10JA",
+        "text": "Ich habe den Sport und andere körperliche Aktivitäten, die von meiner Schule organisiert werden, vermisst."
+      }
+    ]
+  },
+  "SDLEFF": {
+    "sektion": "1.7.9",
+    "titel": "Zuversicht in Bezug auf Aktivitäten bei künftigem Distanzunterricht",
+    "beschreibung": "Selbstwirksamkeitserwartung in Bezug auf künftiges Distanzlernen",
+    "fragestamm": "Wie zuversichtlich bist du, dass du folgende Dinge kannst, wenn in Zukunft erneut",
+    "items": [
+      {
+        "code": "ST355Q01JA",
+        "text": "Ein Lern -Management -System oder eine Lernplattform der Schule nutzen (z. B. Moodle®, Microsoft® OneNote ™, Google® Classroom ™)"
+      },
+      {
+        "code": "ST355Q02JA",
+        "text": "Ein Videokommunikationsprogramm nutzen (z. B. Zoom ™, Skype ™, Google® Meet ™, Microsoft® Teams)"
+      },
+      {
+        "code": "ST355Q03JA",
+        "text": "Lernmaterial online selbst finden"
+      },
+      {
+        "code": "ST355Q04JA",
+        "text": "Selbst planen, wann ich meine schulischen Aufgaben mache"
+      },
+      {
+        "code": "ST355Q05JA",
+        "text": "Mich selbst zur Erledigung meiner schulischen Aufgaben motivieren"
+      },
+      {
+        "code": "ST355Q06JA",
+        "text": "Mich ohne Ermahnungen auf meine schulischen Aufgaben konzentrieren"
+      },
+      {
+        "code": "ST355Q07JA",
+        "text": "Selbstständig meine schulischen Aufgaben erledigen"
+      },
+      {
+        "code": "ST355Q08JA",
+        "text": "Meine Lernfortschritte bewerten 1. Schüler*innenfragebogen 162 Absolute und prozentuale Kategorienhäufigkeiten Variable 1 2 3 4 NA n p n p n p n p n p"
+      },
+      {
+        "code": "ST355Q01JA",
+        "text": "246 4.0 254 4.2 698 11.4 767 12.5 4,151 67."
+      },
+      {
+        "code": "ST355Q02JA",
+        "text": "164 2.7 236 3.9 663 10.8 898 14.7 4,155 67."
+      },
+      {
+        "code": "ST355Q03JA",
+        "text": "151 2.5 291 4.8 840 13.7 675 11.0 4,159 68."
+      },
+      {
+        "code": "ST355Q04JA",
+        "text": "169 2.8 326 5.3 851 13.9 622 10.2 4,148 67."
+      },
+      {
+        "code": "ST355Q05JA",
+        "text": "255 4.2 538 8.8 789 12.9 379 6.2 4,155 67."
+      },
+      {
+        "code": "ST355Q06JA",
+        "text": "211 3.4 465 7.6 793 13.0 503 8.2 4,144 67."
+      },
+      {
+        "code": "ST355Q07JA",
+        "text": "153 2.5 311 5.1 902 14.7 590 9.6 4,160 68."
+      },
+      {
+        "code": "ST355Q08JA",
+        "text": "233 3.8 620 10.1 816 13.3 337 5.5 4,110 67."
+      }
+    ]
+  },
+  "FAMSUP": {
+    "sektion": "1.9.1",
+    "titel": "Familiäre Unterstützung",
+    "beschreibung": "Familiäre Unterstützung",
+    "fragestamm": "Wie häufig machen deine Eltern oder sonstige Familienangehörige Folgendes mit",
+    "items": [
+      {
+        "code": "ST300Q01JA",
+        "text": "Mit dir darüber sprechen, wie gut du in der Schule zurechtkommst."
+      },
+      {
+        "code": "ST300Q02JA",
+        "text": "Die Hauptmahlzeit mit dir zusammen essen."
+      },
+      {
+        "code": "ST300Q03JA",
+        "text": "Zeit damit verbringen, sich einfach mit dir zu unterhalten."
+      },
+      {
+        "code": "ST300Q04JA",
+        "text": "Mit dir darüber reden, wie wichtig es ist, die Schul oder Berufsausbildung abzuschließen."
+      },
+      {
+        "code": "ST300Q05JA",
+        "text": "Mit dir über mögliche Probleme in der Schule sprechen."
+      },
+      {
+        "code": "ST300Q06JA",
+        "text": "Dich fragen, wie gut du mit anderen Schülerinnen und Schülern an der Schule zurechtkommst."
+      },
+      {
+        "code": "ST300Q07JA",
+        "text": "Dich ermutigen, gute Noten zu erzielen."
+      },
+      {
+        "code": "ST300Q08JA",
+        "text": "Sich dafür interessieren, was du in der Schule lernst."
+      },
+      {
+        "code": "ST300Q09JA",
+        "text": "Mit dir über deinen zukünftigen Bildungsweg sprechen."
+      },
+      {
+        "code": "ST300Q10JA",
+        "text": "Dich fragen, was du an diesem Tag in der Schule gemacht hast. 1. Schüler*innenfragebogen 176 Absolute und prozentuale Kategorienhäufigkeiten Variable 1 2 3 4 5 NA n p n p n p n p n p n p"
+      },
+      {
+        "code": "ST300Q01JA",
+        "text": "201 3.3 128 2.1 379 6.2 705 11.5 758 12.4 3,945 64."
+      },
+      {
+        "code": "ST300Q02JA",
+        "text": "118 1.9 59 1.0 98 1.6 401 6.6 1,476 24.1 3,964 64."
+      },
+      {
+        "code": "ST300Q03JA",
+        "text": "117 1.9 66 1.1 176 2.9 468 7.7 1,292 21.1 3,997 65."
+      },
+      {
+        "code": "ST300Q04JA",
+        "text": "154 2.5 234 3.8 601 9.8 641 10.5 537 8.8 3,949 64."
+      },
+      {
+        "code": "ST300Q05JA",
+        "text": "244 4.0 186 3.0 449 7.3 601 9.8 584 9.5 4,052 66."
+      },
+      {
+        "code": "ST300Q06JA",
+        "text": "329 5.4 243 4.0 499 8.2 588 9.6 488 8.0 3,969 64."
+      },
+      {
+        "code": "ST300Q07JA",
+        "text": "205 3.4 140 2.3 417 6.8 626 10.2 707 11.6 4,021 65."
+      },
+      {
+        "code": "ST300Q08JA",
+        "text": "205 3.4 154 2.5 347 5.7 614 10.0 778 12.7 4,018 65."
+      },
+      {
+        "code": "ST300Q09JA",
+        "text": "125 2.0 192 3.1 670 11.0 612 10.0 530 8.7 3,987 65."
+      },
+      {
+        "code": "ST300Q10JA",
+        "text": "143 2.3 78 1.3 195 3.2 426 7.0 1,290 21.1 3,984 65."
+      }
+    ]
+  },
+  "MISCED": {
+    "sektion": "1.10.1",
+    "titel": "Bildungsabschluss der Mutter",
+    "beschreibung": "Index des Bildungsabschlusses der Mutter",
+    "fragestamm": "",
+    "items": []
+  },
+  "FISCED": {
+    "sektion": "1.10.2",
+    "titel": "Bildungsabschluss des Vaters",
+    "beschreibung": "Index des Bildungsabschlusses des Vaters",
+    "fragestamm": "",
+    "items": []
+  },
+  "HISCED": {
+    "sektion": "1.10.3",
+    "titel": "Höchster Bildungsabschluss der Eltern",
+    "beschreibung": "Index des höchsten Bildungsabschlusses der Eltern",
+    "fragestamm": "",
+    "items": []
+  },
+  "PAREDINT": {
+    "sektion": "1.10.4",
+    "titel": "Höchster Bildungsabschluss der Eltern in Bildungsjahren",
+    "beschreibung": "Index des höchsten Bildungsabschlusses der Eltern in Ausbil- dungsjahren",
+    "fragestamm": "HISCED  Index des Bildungsabschlusses der Eltern (Schüler*innenangabe)",
+    "items": []
+  },
+  "BSMJ": {
+    "sektion": "1.10.5",
+    "titel": "Erwarteter sozioökonomischer Status im Alter von 30 Jahren",
+    "beschreibung": "Erwarteter sozioökonomischer Status im Alter von 30 Jahren",
+    "fragestamm": "OCOD3  Erwarteter Beruf im Alter von 30 Jahren",
+    "items": [
+      {
+        "code": "ST329Q01JA",
+        "text": "Was meinst du, welchen Beruf du mit ca. 30 Jahren haben wirst? OCOD3 Erwarteter Beruf im Alter von 30 Jahren 1. Schüler*innenfragebogen 187 Skalenwerte Skala NA N M SD Min Max n p BSMJ 3,127 58.85 22.3 11.01 88.96 2,989 48.87 Anmerkungen: Fehlende Werte = 9799."
+      }
+    ]
+  },
+  "HISEI": {
+    "sektion": "1.10.6",
+    "titel": "Sozioökonomischer beruflicher Status der Eltern",
+    "beschreibung": "Index des sozioökonomischen beruflichen Status der Eltern",
+    "fragestamm": "terin) Bitte gib die Berufsbezeichnung an.",
+    "items": [
+      {
+        "code": "ST014Q01TA",
+        "text": "Welchen Hauptberuf übt deine Mutter aus? (z. B. Lehrerin, Küchenhilfe, Verkaufsleiterin) Bitte gib die Berufsbezeichnung an."
+      },
+      {
+        "code": "ST014Q02TA",
+        "text": "Was macht deine Mutter in ihrem Hauptberuf? (z. B. unterrichtet Schülerinnen und Schüler im Gymnasium, hilft der Köchin/dem Koch in einem Restaurant bei der Essenszubereitung, leitet ein Verkaufsteam). Beschreibe bitte die Tätigkeiten in einigen Worten. Wenn deine Mutter derzeit nicht berufstätig ist, gib bitte an, was sie bei ihrer letzten Arbeit gemacht hat."
+      },
+      {
+        "code": "ST015Q01TA",
+        "text": "Welchen Hauptberuf übt dein Vater aus? (z. B. Lehrer, Küchenhilfe, Verkaufsleiter) Bitte gib die Berufsbezeichnung an."
+      },
+      {
+        "code": "ST015Q02TA",
+        "text": "Was macht dein Vater in seinem Hauptberuf? (z. B. unterrichtet Schülerinnen und Schüler im Gymnasium, hilft der Köchin/dem Koch in einem Restaurant bei der Essenszubereitung, leitet ein Verkaufsteam). Beschreibe bitte die Tätigkeiten in einigen Worten. Wen n dein Vater derzeit nicht berufstätig ist, gib bitte an, was er bei seiner letzten Arbeit gemacht hat. 1. Schüler*innenfragebogen 188 Skalenwerte Skala NA N M SD Min Max n p HISEI 4,874 52.06 21.07 13.24 88.96 1,242 20.31 Anmerkungen: Fehlende Werte = 995 -999."
+      }
+    ]
+  },
+  "ESCS": {
+    "sektion": "1.10.7",
+    "titel": "Sozioökonomischer und soziokultureller Status der Eltern",
+    "beschreibung": "Sozioökonomischer und soziokultureller Status der Eltern",
+    "fragestamm": "HISEI  Index des sozioökonomischen beruflichen Status der Eltern",
+    "items": []
+  },
+  "IMMIG": {
+    "sektion": "1.10.8",
+    "titel": "Zuwanderungshintergrund der Schüler*innen und ihrer Eltern",
+    "beschreibung": "Index des Zuwanderungshintergrunds",
+    "fragestamm": "In welchem Land wurdest du geboren? In welchem Land wurden deine Eltern gebo-",
+    "items": []
+  },
+  "HOMEPOS": {
+    "sektion": "1.10.9",
+    "titel": "Häusliche Besitztümer",
+    "beschreibung": "Index der Ausstattung des Elternhauses",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": [
+      {
+        "code": "ST250Q01JA",
+        "text": "Ein Zimmer für dich allein"
+      },
+      {
+        "code": "ST250Q02JA",
+        "text": "Einen Computer (Laptop, PC oder Tablet), den du für Schularbeiten verwenden kannst"
+      },
+      {
+        "code": "ST250Q03JA",
+        "text": "Lernsoftware oder Apps (z. B. Kahoot!, Mathegym, Khan -Academy®)"
+      },
+      {
+        "code": "ST250Q04JA",
+        "text": "Dein eigenes Handy mit Internetzugang (z. B. Smartphone)"
+      },
+      {
+        "code": "ST250Q05JA",
+        "text": "Internetzugang (z. B. WLAN) (ohne Zugang übers Smartphone) ST250C06JA_DE Einen Schreibtisch zum Lernen ST250C07JA_DE Einen ruhigen Platz zum Lernen"
+      },
+      {
+        "code": "ST251Q01JA",
+        "text": "Autos, Lieferwagen oder Lastwagen"
+      },
+      {
+        "code": "ST251Q02JA",
+        "text": "Mopeds oder Motorräder"
+      },
+      {
+        "code": "ST251Q03JA",
+        "text": "Badezimmer mit Badewanne oder Dusche"
+      },
+      {
+        "code": "ST251Q04JA",
+        "text": "Badezimmer mit Toilette"
+      },
+      {
+        "code": "ST251Q06JA",
+        "text": "Musikinstrumente (z. B. Gitarre, Klavier, Violine)"
+      },
+      {
+        "code": "ST251Q07JA",
+        "text": "Kunstwerke (z. B. Gemälde, Skulpturen)"
+      },
+      {
+        "code": "ST253Q01JA",
+        "text": "Wie viele digitale Geräte mit Bildschirmen gibt es bei dir zu Hause? (Bitte zähle alle Geräte, einschließlich Fernseher, PC, Tablets, E -Book -Reader und Smartphones.)"
+      },
+      {
+        "code": "ST254Q01JA",
+        "text": "Fernseher"
+      },
+      {
+        "code": "ST254Q03JA",
+        "text": "Laptops oder Notebooks"
+      },
+      {
+        "code": "ST254Q04JA",
+        "text": "Tablets (z. B. iPad®, Samsung Galaxy Tab®)"
+      },
+      {
+        "code": "ST254Q05JA",
+        "text": "E-Book -Reader (z. B. Amazon®Kindle ™, Kobo®)"
+      },
+      {
+        "code": "ST254Q06JA",
+        "text": "Handys mit Internetzugang (d. h. Smartphones)"
+      },
+      {
+        "code": "ST255Q01JA",
+        "text": "Wie viele Bücher gibt es bei dir zu Hause? 1. Schüler*innenfragebogen 191 Auf einen Meter Bücherregal passen ungefähr 40 Bücher. Zähle bitte Zeitschriften, Zeitungen und deine Schulbücher nicht mit. (Bitte eine Antwort auswählen.)"
+      },
+      {
+        "code": "ST256Q01JA",
+        "text": "Religiöse Bücher (z. B. Bibel, Koran, Talmud)"
+      },
+      {
+        "code": "ST256Q02JA",
+        "text": "Klassische Literatur (z. B. von Goethe oder von Schiller)"
+      },
+      {
+        "code": "ST256Q03JA",
+        "text": "Zeitgenössische Literatur"
+      },
+      {
+        "code": "ST256Q06JA",
+        "text": "Wissenschaftliche Bücher"
+      },
+      {
+        "code": "ST256Q07JA",
+        "text": "Bücher über Kunst, Musik oder Design"
+      },
+      {
+        "code": "ST256Q08JA",
+        "text": "Technische Nachschlagewerke"
+      },
+      {
+        "code": "ST256Q09JA",
+        "text": "Wörterbücher"
+      },
+      {
+        "code": "ST256Q10JA",
+        "text": "Bücher, die dir bei Schularbeiten helfen"
+      }
+    ]
+  },
+  "ICTRES": {
+    "sektion": "0.15",
+    "titel": "0. -6. 4.  .",
+    "beschreibung": "ICT Ressourcen",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": [
+      {
+        "code": "ST250Q02JA",
+        "text": "Einen Computer (Laptop, PC oder Tablet), den du für Schularbeiten verwenden kannst"
+      },
+      {
+        "code": "ST250Q03JA",
+        "text": "Lernsoftware oder Apps (z. B. Kahoot!, Mathegym, Khan -Academy®)"
+      },
+      {
+        "code": "ST250Q04JA",
+        "text": "Dein eigenes Handy mit Internetzugang (z. B. Smartphone)"
+      },
+      {
+        "code": "ST250Q05JA",
+        "text": "Internetzugang (z. B. WLAN) (ohne Zugang übers Smartphone)"
+      },
+      {
+        "code": "ST253Q01JA",
+        "text": "Wie viele digitale Geräte mit Bildschirmen gibt es bei dir zu Hause? (Bitte zähle alle Geräte, einschließlich Fernseher, PC, Tablets, E -Book -Reader und Smartphones.)"
+      },
+      {
+        "code": "ST254Q01JA",
+        "text": "Fernseher"
+      },
+      {
+        "code": "ST254Q03JA",
+        "text": "Laptops oder Notebooks"
+      },
+      {
+        "code": "ST254Q04JA",
+        "text": "Tablets (z. B. iPad®, Samsung Galaxy Tab®)"
+      },
+      {
+        "code": "ST254Q05JA",
+        "text": "E-Book -Reader (z. B. Amazon®Kindle ™, Kobo®)"
+      },
+      {
+        "code": "ST254Q06JA",
+        "text": "Handys mit Internetzugang (d. h. Smartphones)"
+      }
+    ]
+  },
+  "EXERPRAC": {
+    "sektion": "1.10.11",
+    "titel": "Sportliche Aktivitäten vor und nach der Schule",
+    "beschreibung": "Sportliche Aktivitäten vor und nach der Schule",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": []
+  },
+  "STUDYHMW": {
+    "sektion": "1.10.12",
+    "titel": "Lernen und Üben vor und nach der Schule",
+    "beschreibung": "Lernen und Üben vor und nach der Schule",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": []
+  },
+  "WORKPAY": {
+    "sektion": "1.10.13",
+    "titel": "Lohnarbeit vor und nach der Schule",
+    "beschreibung": "Vor oder nach der Schule für Geld arbeiten",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": []
+  },
+  "WORKHOME": {
+    "sektion": "1.10.14",
+    "titel": "Care- Arbeit vor und nach der Schule",
+    "beschreibung": "Aufgaben im Haushalt erledigen oder sich um Familienmitglie- der kümmern",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": []
+  },
+  "DURECEC": {
+    "sektion": "1.10.15",
+    "titel": "Zeit in frühkindlichen Bildungs - und Betreuungseinrichtungen",
+    "beschreibung": "Zeit in frühkindlichen Bildungs - und Betreuungseinrichtungen",
+    "fragestamm": "Wer füllt diesen Fragebogen aus?",
+    "items": []
+  },
+  "PARINVOL": {
+    "sektion": "2.1.3",
+    "titel": "Engagement der Eltern in schulischen Aktivitäten",
+    "beschreibung": "Engagement der Eltern",
+    "fragestamm": "Haben Sie im letzten Schuljahr an einer der folgenden schulischen Aktivitäten teilgenom-",
+    "items": []
+  },
+  "PQSCHOOL": {
+    "sektion": "63.5",
+    "titel": "PAQTA 1, .8  9.0  5.7  2.1 3, .5",
+    "beschreibung": "Beurteilung der Schulqualität  PASCHPOL – Schulrichtlinien für Elternbeteiligung",
+    "fragestamm": "Wir interessieren uns dafür, was Sie über die Schule Ihres Kindes denken.",
+    "items": []
+  },
+  "CREATACT": {
+    "sektion": "2.2.4",
+    "titel": "Außerschulische Aktivitäten",
+    "beschreibung": "Teilnahme an kreativen außerschulischen Aktivitäten",
+    "fragestamm": "Wie oft nimmt Ihr Kind an den folgenden Aktivitäten außerhalb der Schule teil? Geben Sie",
+    "items": []
+  },
+  "CREATHME": {
+    "sektion": "2.3.1",
+    "titel": "Kreatives Wohnumfeld",
+    "beschreibung": "Kreatives Wohnumfeld",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "CREATOPN": {
+    "sektion": "2.3.3",
+    "titel": "Eigene Kreativität",
+    "beschreibung": "Selbstwahrgenommene Kreativität",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "CREATOR": {
+    "sektion": "2.3.4",
+    "titel": "Kreativität des Kindes",
+    "beschreibung": "Offenheit für Kreativität: Fremdwahrnehmung",
+    "fragestamm": "Denken Sie bei dieser Frage an Ihr Kind. Wie sehr stimmen Sie folgenden Aussagen zu",
+    "items": []
+  },
+  "ATTIMMP": {
+    "sektion": "2.4.2",
+    "titel": "Einstellung der Eltern zu gleichen Rechten für Zuwander*innen",
+    "beschreibung": "Einstellungen der Eltern zu gleichen Rechten für Zuwander*innen Parents‘ attitudes towards immigrants)",
+    "fragestamm": "Menschen ziehen zunehmend von einem Land in ein anderes. Wie sehr stimmen Sie den",
+    "items": []
+  },
+  "PQMIMP": {
+    "sektion": "2.6.6",
+    "titel": "Mathematische Fähigkeiten auf dem Arbeitsmarkt",
+    "beschreibung": "Einstellungen der Eltern zur Mathematik",
+    "fragestamm": "Uns interessiert, wie Sie über den Bedarf an mathematischen Fähigkeiten auf dem aktuel-",
+    "items": []
+  },
+  "DEVNEED": {
+    "sektion": "3.1.14",
+    "titel": "Lehrkräftequalifikationen/Fortbildungen – Fortbildungsbedarf",
+    "beschreibung": "Fortbildungsbedarf",
+    "fragestamm": "Waren folgende Themen Teil Ihrer Lehramtsausbildung bzw. Ihres Schulungspro-",
+    "items": []
+  },
+  "PRPDT": {
+    "sektion": "3.1.16",
+    "titel": "Aktivitäten bezüglich der beruflichen Entwicklung in den letzten 12 Monaten",
+    "beschreibung": "Anteil beruflicher Weiterbildung",
+    "fragestamm": "Haben Sie in den letzten 12 Monaten an folgenden Aktivitäten teilgenommen?",
+    "items": []
+  },
+  "SEFFCM": {
+    "sektion": "59.05",
+    "titel": "TCQJA  9. 5. 0   .",
+    "beschreibung": "Selbstwirksamkeitserwartungen in Bezug auf die Klassenführung  SEFFREL – Selbstwirksamkeitserwartungen in Bezug auf das Aufrechterhal- ten/Herstellen positiver Beziehungen zu den Schüler*innen  SEFFINS – Selbstwirksamkeitserwartungen in Bezug auf das Unterrichten",
+    "fragestamm": "Inwieweit ist Ihnen im Rahmen Ihrer Lehrtätigkeit Folgendes möglich?",
+    "items": []
+  },
+  "ADAPTINSTR": {
+    "sektion": "3.2.11",
+    "titel": "Konstruktive Unterstützung im Unterricht",
+    "beschreibung": "Schüler*innenbeurteilung - Differenzierung  FEEDBINSTR - Feedback der Lehrkraft",
+    "fragestamm": "Wie häufig kommt in Ihren Unterrichtsstunden Folgendes vor?",
+    "items": []
+  },
+  "TCATTIMM": {
+    "sektion": "3.2.12",
+    "titel": "Einstellungen der Lehrkräfte zu gleichen Rechten für Zuwander*innen",
+    "beschreibung": "Einstellungen der Lehrkräfte zu gleichen Rechten für Zuwan- der*innen",
+    "fragestamm": "Menschen ziehen zunehmend von einem Land in ein anderes. Wie sehr stimmen Sie",
+    "items": []
+  },
+  "EXCHT": {
+    "sektion": "3.2.13",
+    "titel": "Austausch und Koordination in Bezug auf das Unterrichten",
+    "beschreibung": "Austauch und Koordination in Bezug auf das Unterrichten",
+    "fragestamm": "Wie oft machen Sie im Durchschnitt Folgendes an dieser Schule?",
+    "items": []
+  },
+  "TCICTUSE": {
+    "sektion": "3.2.15",
+    "titel": "Nutzung spezifischer ICT- Anwendungen von Lehrkräften",
+    "beschreibung": "Nutzung spezifischer ICT-Anwendungen durch die Lehrkräfte",
+    "fragestamm": "Wie oft haben Sie folgende Hilfsmittel während des laufendes Schuljahres in Ihrem Un-",
+    "items": []
+  },
+  "TCDIGRES": {
+    "sektion": "3.2.16",
+    "titel": "Einsatz digitaler Medien im Unterricht",
+    "beschreibung": "Nutzung von Informations - und Kommunikationstechnologie",
+    "fragestamm": "Wie oft haben Sie im laufenden Schuljahr Folgendes gemacht?",
+    "items": []
+  },
+  "ICTCOMP": {
+    "sektion": "3.2.17",
+    "titel": "Vermittlung digitaler Kompetenzen",
+    "beschreibung": "Betonung von Informations - und Kommunikationstechnologie",
+    "fragestamm": "Wie wichtig war für Sie die Vermittlung folgender Kompetenzen an Ihre Schülerinnen",
+    "items": []
+  },
+  "ICTOTL": {
+    "sektion": "3.2.18",
+    "titel": "Lerngelegenheiten - Internetverständnis",
+    "beschreibung": "Lehren von Bewusstsein in Bezug auf Informations - und Kommuni- kationstechnologien",
+    "fragestamm": "Haben Sie in Ihrem Unterricht schon jemals die folgenden Dinge unterrichtet?",
+    "items": []
+  },
+  "TCDISCLIMA": {
+    "sektion": "3.3.4",
+    "titel": "Disziplin im Klassenzimmer",
+    "beschreibung": "Disziplin im Klassenzimmer",
+    "fragestamm": "Wie häufig kommt in Ihrem Mathematikunterricht Folgendes vor?",
+    "items": []
+  },
+  "EXPO21TC": {
+    "sektion": "3.3.6",
+    "titel": "Anwendungsbezogene Mathematikaufgaben",
+    "beschreibung": "Lehren von mathematischem Argumentieren und Aufgaben des 21. Jahrhunderts",
+    "fragestamm": "Wie häufig haben Sie Ihren Schülerinnen und Schülern in Ihrem Mathematikunterricht",
+    "items": []
+  },
+  "COGACMTC": {
+    "sektion": "3.3.7",
+    "titel": "Anwendungsbezogener Mathematikunterricht",
+    "beschreibung": "Ermutigung zu mathematischem Denken",
+    "fragestamm": "Wie häufig haben Sie im laufenden Schuljahr die folgenden Dinge in Ihrem Mathema-",
+    "items": []
+  },
+  "COGACRTC": {
+    "sektion": "3.3.8",
+    "titel": "Mathematisches Problemlösen",
+    "beschreibung": "Mathematisches Argumentieren fördern",
+    "fragestamm": "Wie häufig haben Sie im laufenden Schuljahr die folgenden Dinge in Ihrem Mathema-",
+    "items": []
+  },
+  "TCMGOALS": {
+    "sektion": "3.3.9",
+    "titel": "Perspektiven auf den Mathematikunterricht",
+    "beschreibung": "Ziele und Ansichten zum Unterrichten von Mathematik",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "CREATVAL": {
+    "sektion": "3.4.3",
+    "titel": "Kreatives Unterrichtsklima",
+    "beschreibung": "Werte mit Blick auf Kreativität",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "CREATPED": {
+    "sektion": "3.4.4",
+    "titel": "Kreative Pädagogik",
+    "beschreibung": "Nutzung kreativer Pädagogik",
+    "fragestamm": "Wie wichtig sind Ihnen folgende Dinge in Ihrem Unterricht?",
+    "items": []
+  },
+  "AFFECT": {
+    "sektion": "3.5.1",
+    "titel": "Konzentrationsfähigkeit",
+    "beschreibung": "Affekt",
+    "fragestamm": "In den vergangenen zwei Wochen, wie häufig haben Sie sich an einem Schultag so ge-",
+    "items": []
+  },
+  "TRUST": {
+    "sektion": "3.5.2",
+    "titel": "Vertrauensvolles Arbeitsklima",
+    "beschreibung": "Vertrauensvolles Umfeld",
+    "fragestamm": "Wenn Sie an das allgemeine Klima an dieser Schule denken, wie sehr stimmen Sie fol-",
+    "items": []
+  },
+  "OVERLOAD": {
+    "sektion": "0.03",
+    "titel": "0. -3.1 1.6  .",
+    "beschreibung": "Überbelastung",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen hinsichtlich Ihrer Tätigkeit an dieser Schule zu",
+    "items": []
+  },
+  "AUTONOMY": {
+    "sektion": "3.5.4",
+    "titel": "Selbstbestimmtes Arbeiten",
+    "beschreibung": "Selbstbestimmtes Arbeiten",
+    "fragestamm": "Wie viel Einfluss haben Sie auf die folgenden Bereiche an Ihrer derzeitigen Schule?",
+    "items": []
+  },
+  "LEADSHIP": {
+    "sektion": "3.5.10",
+    "titel": "Aktivitäten der Schulleitung",
+    "beschreibung": "Schulleitung",
+    "fragestamm": "In den vergangenen 12 Monaten, wie häufig hat sich die Schulleitung dieser Schule in",
+    "items": []
+  },
+  "STRESS": {
+    "sektion": "3.5.12",
+    "titel": "Ursachen für Stress",
+    "beschreibung": "Ursachen für Stress",
+    "fragestamm": "Wenn Sie an Ihre Tätigkeit an dieser Schule denken, inwieweit löst Folgendes bei Ihrer",
+    "items": []
+  },
+  "SATJOB": {
+    "sektion": "0.26",
+    "titel": "0.  0.  1.  1.  3.",
+    "beschreibung": "Zufriedenheit mit der aktuellen Arbeitsplatzumgebung  SATTEACH – Zufriedenheit mit dem Lehrberuf allgemein",
+    "fragestamm": "Wir würden gerne erfahren, was Sie allgemein von Ihrer Arbeit halten. Inwieweit treffen",
+    "items": []
+  },
+  "STAFFSHORT": {
+    "sektion": "4.1.7",
+    "titel": "Mangel an Schulpersonal und Unterrichtsmaterial",
+    "beschreibung": "Mangel an Schulpersonal  EDUSHORT – Mangel an Unterrichtsmaterial",
+    "fragestamm": "Wird der Unterricht an Ihrer Schule durch die folgenden Faktoren beeinträchtigt?",
+    "items": []
+  },
+  "MTTRAIN": {
+    "sektion": "4.3.6",
+    "titel": "Arten von schulinternen Fort - und Weiterbildungen für Mathematiklehrkräfte",
+    "beschreibung": "Fort- und Weiterbildungen für Mathematiklehrkräfte",
+    "fragestamm": "Welche der folgenden Arten von schulinternen Fort - und Weiterbildungsveranstaltun-",
+    "items": []
+  },
+  "EDULEAD": {
+    "sektion": "4.4.4",
+    "titel": "Aufgaben der Schulleitung",
+    "beschreibung": "Pädagogische Leitung  INSTLEAD – Didaktische Leitung",
+    "fragestamm": "Wie oft haben Sie oder andere Mitglieder der Schulleitung sich in den letzten 12 Mona-",
+    "items": []
+  },
+  "TEAFDBK": {
+    "sektion": "4.4.8",
+    "titel": "Einfluss der Beurteilung von Lehrkräften",
+    "beschreibung": "Beurteilung von Lehrkräften",
+    "fragestamm": "Welchen Einfluss haben Beurteilungen von Lehrkräften an Ihrer Schule auf die folgen-",
+    "items": []
+  },
+  "STDTEST": {
+    "sektion": "4.4.10",
+    "titel": "Verwendung von Testergebnissen",
+    "beschreibung": "Verwendung standardisierter Tests  TDTEST – Verwendung von durch Lehrkräfte entwickelte Tests",
+    "fragestamm": "Werden an Ihrer Schule standardisierte Tests und/oder von Lehrkräften entwickelte",
+    "items": []
+  },
+  "STUBEHA": {
+    "sektion": "4.5.1",
+    "titel": "Beeinträchtigung des Schulklimas durch Schüler*innen- und Lehrkräfteverhalten",
+    "beschreibung": "Beeinträchtigung des Schulklimas durch Schüler*innenverhalten  TECHBEHA – Beeinträchtigung des Schulklimas durch Lehrkräfteverhalten",
+    "fragestamm": "Wie sehr wir das Lernen von Schülerinnen und Schülern an Ihrer Schule durch Folgen-des beeinträchtigt?",
+    "items": []
+  },
+  "DMCVIEWS": {
+    "sektion": "4.5.2",
+    "titel": "Wertschätzung und Förderung eines transkulturellen Weltbildes",
+    "beschreibung": "Schulvielfalt und Förderung eines transkulturellen Weltbildes",
+    "fragestamm": "Wie oft hat das Schulpersonal in diesem Schuljahr Folgendes unternommen?",
+    "items": []
+  },
+  "CREENVSC": {
+    "sektion": "4.8.2",
+    "titel": "Kreatives Schul - und Unterrichtsklima",
+    "beschreibung": "Kreatives Schul - und Unterrichtsklima",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "OPENCUL": {
+    "sektion": "4.8.4",
+    "titel": "Fähigkeiten der Schüler*innen",
+    "beschreibung": "Offenes und kreatives Schulklima",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": []
+  },
+  "DIGPREP": {
+    "sektion": "4.9.2",
+    "titel": "ICT-Kapazitäten der Schule",
+    "beschreibung": "ICT-Kapazitäten",
+    "fragestamm": "Wie sehr stimmen Sie den folgenden Aussagen über die Kapazitäten Ihrer Schule zu,",
+    "items": []
+  },
+  "ENCOURPG": {
+    "sektion": "4.10.2",
+    "titel": "Kooperation mit Eltern oder erwachsenen Bezugspersonen",
+    "beschreibung": "Kooperation mit Eltern oder erwachsenen Bezugspersonen",
+    "fragestamm": "Wie oft hat das Schulpersonal in diesem Schuljahr Folgendes unternommen?",
+    "items": []
+  },
+  "ALLACTIV": {
+    "sektion": "4.11.1",
+    "titel": "Außerunterrichtliche Schulangebote",
+    "beschreibung": "Außerunterrichtliche Schulangebote",
+    "fragestamm": "Welche der folgenden Aktivitäten werden für Schülerinnen und Schüler der 9.Jahr-",
+    "items": []
+  },
+  "PROBSCRI": {
+    "sektion": "4.12.4",
+    "titel": "Einschränkungen während des Distanzunterrichts",
+    "beschreibung": "Probleme, Distanzunterricht anzubieten",
+    "fragestamm": "Als im Schulgebäude wegen der Coronakrise kein Unterricht für Schülerinnen und Schü-",
+    "items": []
+  },
+  "SCPREPBP": {
+    "sektion": "4.12.11",
+    "titel": "Maßnahmen zur Vorbereitung auf den Distanzunterricht",
+    "beschreibung": "Maßnahmen zur Vorbereitung auf Distanzunterricht, vor Pande- mie",
+    "fragestamm": "Hat Ihre Schule folgende Maßnahmen ergriffen, um sich auf den Distanzunterricht vor-zubereiten?",
+    "items": []
+  },
+  "SCHLTYPE": {
+    "sektion": "4.13.1",
+    "titel": "Träger und Finanzierung der Schule",
+    "beschreibung": "Index zum Träger in Kombination mit der Finanzierung der Schule",
+    "fragestamm": "SC013Q01TA  Ist Ihre Schule eine öffentliche oder eine private Schule?",
+    "items": []
+  },
+  "SMRATIO": {
+    "sektion": "4.13.2",
+    "titel": "Verhältnis Schüler*innen- Mathematiklehrkräfte",
+    "beschreibung": "Verhältnis Schüler*innen-Mathematiklehrkräfte",
+    "fragestamm": "SCHSIZE  Gesamtzahl der (eingeschriebenen) Schüler*innen",
+    "items": []
+  }
+}

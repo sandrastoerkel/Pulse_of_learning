@@ -1,0 +1,27 @@
+# Requirements für PISA Math Confidence Explorer
+# Installation: pip install -r requirements.txt
+
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.17.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# SHAP Visualization
+streamlit-shap
+shap
+
+# ML & Analysis
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+numpy
+openpyxl
+
+# Erweiterte Analysen:
+scipy>=1.11.0
+statsmodels>=0.14.0
+
+# Digitale Befragung / Survey Generator:
+qrcode[pil]>=7.4.2
+reportlab>=4.0.0
+Pillow>=10.0.0

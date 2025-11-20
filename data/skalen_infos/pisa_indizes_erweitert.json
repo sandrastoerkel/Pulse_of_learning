@@ -1,0 +1,1044 @@
+{
+  "ICTSCH": {
+    "sektion": "1.5.3",
+    "titel": "Häufigkeit der Nutzung digitaler Medien in der Schule",
+    "beschreibung": "Verfügbarkeit digitaler Medien in der Schule",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du die folgenden digitalen Medien in der Schule",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Die zusätzlich im Datensatz vorhandene Variable ICTAVSCH bildet die Verfügbar- keit digitaler Medien in der Schule ab. Für jedes der sieben Items wurde eine Punktzahl von „0\" vergeben, wenn die Schüler*innen die Antwortoption „Dieses Medium ist für mich in der Schule nicht verfügbar\" wählten, und alle anderen Ant- worten wurden mit „1\" codiert. Der Index wurde als Summe der Werte über die sieben Items berechnet, die mit",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTHOME": {
+    "sektion": "1.5.4",
+    "titel": "Häufigkeit der Nutzung digitaler Medien außerhalb der Schule",
+    "beschreibung": "Verfügbarkeit digitaler Medien außerhalb der Schule",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du die folgenden digitalen Medien außerhalb",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Die zusätzlich im Datensatz vorhandene Variable ICTAV HOM bildet die Verfüg- barkeit digitaler Medien außerhalb der Schule ab. Für jedes der sechs Items wurde eine Punktzahl von „0\" vergeben, wenn die Schüler*innen die Antwortop- tion „Dieses Medium ist für mich außerhalb der Schule nicht verfügbar\" wählten, und alle anderen Antworten wurden mit „1\" codiert. Der Index wurde als Summe der Werte über die sechs Items berec",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTQUAL": {
+    "sektion": "1.5.5",
+    "titel": "Verfügbarkeit, Zugang und Qualität digitaler Medien in der Schule",
+    "beschreibung": "Qualität des Zugangs zu digitalen Medien",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Skala in PISA 2022.",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTSUBJ": {
+    "sektion": "1.5.6",
+    "titel": "Häufigkeit der Nutzung digitaler Medien nach Schulfach",
+    "beschreibung": "Fachbezogene Nutzung digitaler Medien im Unterricht",
+    "fragestamm": "Wie häufig nutzt du in den folgenden Schulfächern digitale Medien?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wurden bereits in PISA 2018 (IC150) erhoben.",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTENQ": {
+    "sektion": "1.5.7",
+    "titel": "Nutzungsarten digitaler Medien für forschendes Lernen",
+    "beschreibung": "Nutzung digitaler Medien für forschendes Lernen",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du digitale Medien für folgende Aktivitäten ge-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Skala in PISA 2022.",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTFEED": {
+    "sektion": "1.5.8",
+    "titel": "Unterstützung und Feedback durch digitale Medien",
+    "beschreibung": "Unterstützung und Feedback durch digitale Medien",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du digitale Medien für folgende Aktivitäten ge-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Skala in PISA 2022",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTOUT": {
+    "sektion": "0.4",
+    "titel": "0. -1. 2. 1, .6",
+    "beschreibung": "Nutzung von digitalen Medien für schulbezogene Aktivitäten außer- halb des Unterrichts",
+    "fragestamm": "In diesem Schuljahr, wie häufig hast du digitale Medien für folgende Aktivitäten ge-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wurden bereits in PISA 2018 (IC010) erhoben.",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTWKDY": {
+    "sektion": "1.5.11",
+    "titel": "Häufigkeit der Nutzung digitaler Medien unter der Woche",
+    "beschreibung": "Nutzungshäufigkeit digitaler Medien unter der Woche",
+    "fragestamm": "Wie viel Zeit verbringst du an einem normalen Wochentag mit den folgenden Frei-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Skala in PISA 2022.",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTWKEND": {
+    "sektion": "1.5.12",
+    "titel": "Häufigkeit der Nutzung digitaler Medien am Wochenende",
+    "beschreibung": "Nutzungshäufigkeit digitaler Medien am Wochenende",
+    "fragestamm": "Wie viel Zeit verbringst du an einem normalen Wochenende mit den folgenden Frei-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTREG": {
+    "sektion": "1.5.13",
+    "titel": "Meinungen der Schüler*innen zu Nutzungsregelungen für digitale Medien",
+    "beschreibung": "Meinungen der Schüler*innen zu Nutzungsregelungen für digitale Medien",
+    "fragestamm": "Wie sehr stimmst du folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Skala in PISA 2022.",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTINFO": {
+    "sektion": "1.5.14",
+    "titel": "Praktiken in Bezug auf Online- Informationen",
+    "beschreibung": "Praktiken der Schüler*innen in Bezug auf Online-Informationen",
+    "fragestamm": "Wie sehr stimmst du den folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Skala in PISA 2022.",
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTEFFIC": {
+    "sektion": "1.5.17",
+    "titel": "Selbstwirksamkeit in digitalen Kompetenzen",
+    "beschreibung": "Selbstwirksamkeit im Umgang mit digitalen Ressourcen",
+    "fragestamm": "Inwieweit kannst du die folgenden Aufgaben mithilfe von digitalen Medien erledigen?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Skala in PISA 2022. 1. Schüler*innenfragebogen 129 Anzahl der Items 14",
+    "typ": "zusammengesetzter_index"
+  },
+  "MISCED": {
+    "sektion": "1.10.1",
+    "titel": "Bildungsabschluss der Mutter",
+    "beschreibung": "Index des Bildungsabschlusses der Mutter",
+    "fragestamm": "",
+    "items": [],
+    "anmerkung": "Der Index des Bildungsabschlusses der Mutter (MISCED) wird basierend auf den Fragen ST005 und ST006 gebildet. Die Antworten auf nationale Items wur- den in die internationalen ISCED -Levels ( International Standard Classification of Education) übertragen. Die Antwortmöglichkeiten und Codierung des MISCED wurden im Vergleich zu vorigen Zyklen aktualisiert, um sie an die ISCED -2011- Klassifikationen anzupassen. Bei Trendanalysen ist die veränderte Codierung unbedingt zu beachten. Der Index reicht",
+    "basiert_auf": [
+      "ST005",
+      "ST005C01TA",
+      "ST006"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "FISCED": {
+    "sektion": "1.10.2",
+    "titel": "Bildungsabschluss des Vaters",
+    "beschreibung": "Index des Bildungsabschlusses des Vaters",
+    "fragestamm": "",
+    "items": [],
+    "anmerkung": "Der Index des Bildungsabschlusses des Vaters (FISCED) wird basierend auf den Fragen ST007 und ST008 gebildet. Die Antworten auf nationale Items wur- den in die internationalen ISCED -Levels ( International Standard Classification of Education) übertragen. Die Antwortmöglichkeiten und Codierung des FISCED wurden im Vergleich zu vorigen Zyklen aktualisiert, um sie an die ISCED -2011- Klassifikationen anzupassen. Bei Trendanalysen ist die veränderte Codierung unbedingt zu beachten. Der Index reicht",
+    "basiert_auf": [
+      "ST007",
+      "ST007C01TA",
+      "ST008"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "HISCED": {
+    "sektion": "1.10.3",
+    "titel": "Höchster Bildungsabschluss der Eltern",
+    "beschreibung": "Index des höchsten Bildungsabschlusses der Eltern",
+    "fragestamm": "",
+    "items": [],
+    "anmerkung": "Der Index des höchsten Bildungsabschlusses der Eltern (HISCED) basiert auf den Variablen im MISCED (1.10.1 Bildungsabschluss der Mutter) und FISCED (1.10.2 Bildungsabschluss des Vaters). Sofern Werte zu den Erziehungsberech- tigten aus den Angaben der Schüler*innen vorhanden sind, wird bei der Ermitt- lung der jeweils höhere Wert zur Bestimmung verwendet. Der Index wird unter der gleichen Bezeichnung in allen vorherigen PISA -Zyklen ausgewiesen. Aller- dings wurde für PISA 2022 erstmals die Codi",
+    "typ": "zusammengesetzter_index"
+  },
+  "PAREDINT": {
+    "sektion": "1.10.4",
+    "titel": "Höchster Bildungsabschluss der Eltern in Bildungsjahren",
+    "beschreibung": "Index des höchsten Bildungsabschlusses der Eltern in Ausbil- dungsjahren",
+    "fragestamm": "HISCED  Index des Bildungsabschlusses der Eltern (Schüler*innenangabe)",
+    "items": [],
+    "anmerkung": "Der Index PAREDINT (Parental Education) bezieht sich auf die höchste Anzahl von Ausbildungsjahren der Eltern und basierte auf den mittleren kumulativen Bildungsjahren, die mit dem Abschluss des höchsten Bildungsniveaus der Eltern (HISCED) verbunden sind. S omit wurden die in PISA 2022 verwendeten kumu- lativen Bildungsjahre aus dem ISCED -Niveau (HISCED) abgeleitet. Durch die detailliertere Abbildung anhand der ISCED -2011- Codierung war keine für Deutschland spezifische Zusatzcodierung (wie in ",
+    "typ": "zusammengesetzter_index"
+  },
+  "ESCS": {
+    "sektion": "1.10.7",
+    "titel": "Sozioökonomischer und soziokultureller Status der Eltern",
+    "beschreibung": "Sozioökonomischer und soziokultureller Status der Eltern",
+    "fragestamm": "HISEI  Index des sozioökonomischen beruflichen Status der Eltern",
+    "items": [],
+    "anmerkung": "Der ESCS wurde aus dem höchsten sozioökonomischen Status der Eltern (HISEI), dem höchsten Bildungsabschluss der Eltern in Bildungsjahren (PARE- DINT) sowie dem Index häuslicher Besitztümer (HOMEPOS) gebildet. Die Werte des ESCS berechnen sich aus dem arithmetischen Mittel der drei genannten Indizes nach deren Imputation und Standardisierung (OECD, 2024). Dieser Index wurde unter der gleichen Bezeichnung auch seit 2003 erhoben. Die Berechnung unterscheidet sich seit PISA 2018 von der Berechnung i",
+    "typ": "zusammengesetzter_index"
+  },
+  "IMMIG": {
+    "sektion": "1.10.8",
+    "titel": "Zuwanderungshintergrund der Schüler*innen und ihrer Eltern",
+    "beschreibung": "Index des Zuwanderungshintergrunds",
+    "fragestamm": "In welchem Land wurdest du geboren? In welchem Land wurden deine Eltern gebo-",
+    "items": [],
+    "anmerkung": "Der internationale Index zum Zuwanderungshintergrund wurde aus den Items ST019AC01T_DE, ST019BC01T_DE und ST019CC01T_DE zum Geburtsland der Schüler*innen und deren Eltern berechnet. Er gruppiert die Jugendlichen in drei Kategorien. Waren bei dem Schüler*innen-Item oder bei beiden Eltern- Items fehlende Werte vorhanden, wurde für die/den Schüler*in kein Wert über- tragen. Dieser Index wurde in PISA 2000 (st16_elt) sowie seit PISA 2003 unter der gleichen Bezeichnung (IMMIG) erhoben. Die zusätzlich",
+    "basiert_auf": [
+      "ST019AC01T",
+      "ST019BC01T",
+      "ST019CC01T"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "EXERPRAC": {
+    "sektion": "1.10.11",
+    "titel": "Sportliche Aktivitäten vor und nach der Schule",
+    "beschreibung": "Sportliche Aktivitäten vor und nach der Schule",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": [],
+    "anmerkung": "Der Index EXERPRAC basiert auf den Antworten von Schüler*innen dazu, an wie vielen Tagen sie in einer typischen Schulwoche vor (ST294) oder nach (ST295) der Schule trainieren oder Sport machen. Zu den Antwortkategorien der einzelnen Fragen s. 1.9.3 Morgenaktivitäten vor dem Schulbesuch und 1.9.4 Nachmittags - und Abendaktivitäten nach dem Schulbesuch. Kategorien 0 = kein Training oder Sport 1 = Einmal Training oder Sport 2 = Zweimal Training oder Sport 3 = Dreimal Training oder Sport 4 = Viermal",
+    "basiert_auf": [
+      "ST294",
+      "ST295"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "STUDYHMW": {
+    "sektion": "1.10.12",
+    "titel": "Lernen und Üben vor und nach der Schule",
+    "beschreibung": "Lernen und Üben vor und nach der Schule",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": [],
+    "anmerkung": "Der Index STUDYHMW basiert auf den Antworten von Schüler*innen dazu, an wie vielen Tagen sie in einer typischen Schulwoche vor (ST294) oder nach (ST295) der Schule lernen oder Hausaufgaben machen. Zu den Antwortkatego- rien der einzelnen Fragen s. 1.9.3 Morgenaktivitäten vor dem Schulbesuch und",
+    "basiert_auf": [
+      "ST294",
+      "ST295"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "WORKPAY": {
+    "sektion": "1.10.13",
+    "titel": "Lohnarbeit vor und nach der Schule",
+    "beschreibung": "Vor oder nach der Schule für Geld arbeiten",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": [],
+    "anmerkung": "Der Index WORKPAY basiert auf den Antworten von Schüler*innen dazu, an wie vielen Tagen sie in einer typischen Schulwoche vor (ST294) oder nach (ST295) der Schule einer bezahlten Arbeit nachgehen. Zu den Antwortkategorien der ein- zelnen Fragen s. 1.9.3 Morgenaktivitäten vor dem Schulbesuch und 1.9.4 Nach- mittags - und Abendaktivitäten nach dem Schulbesuch. Kategorien 0 = nicht einer bezahlten Arbeit nachgehen 1 = Einmal einer bezahlten Arbeit nachgehen 2 = Zweimal einer bezahlten Arbeit nachge",
+    "basiert_auf": [
+      "ST294",
+      "ST295"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "WORKHOME": {
+    "sektion": "1.10.14",
+    "titel": "Care- Arbeit vor und nach der Schule",
+    "beschreibung": "Aufgaben im Haushalt erledigen oder sich um Familienmitglie- der kümmern",
+    "fragestamm": "Welche der folgenden Dinge gibt es bei dir zu Hause?",
+    "items": [],
+    "anmerkung": "Der Index WORKHOME basiert auf den Antworten von Schüler*innen dazu, an wie vielen Tagen sie in einer typischen Schulwoche vor (ST294) oder nach (ST295) der Schule lernen oder Hausaufgaben machen. Zu den Antwortkatego- rien der einzelnen Fragen s. 1.9.3 Morgenaktivitäten vor dem Schulbesuch und",
+    "basiert_auf": [
+      "ST294",
+      "ST295"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "DURECEC": {
+    "sektion": "1.10.15",
+    "titel": "Zeit in frühkindlichen Bildungs - und Betreuungseinrichtungen",
+    "beschreibung": "Zeit in frühkindlichen Bildungs - und Betreuungseinrichtungen",
+    "fragestamm": "Wer füllt diesen Fragebogen aus?",
+    "items": [],
+    "anmerkung": "Der Index DURECEC basiert auf den Fragen zum Eintritt in frühkindliche Be- treuungseinrichtungen (ST125) und die Primarstufe (ST126). Der Index DURE- CEC wird durch die Differenz zwischen ST126 und ST125 gebildet und zeigt damit an, wie lange die jeweiligen Schüler*innen in frühkindlichen Bildungsein- richtungen verbracht haben. 1. Schüler*innenfragebogen 197 Anzahl der Items 2",
+    "basiert_auf": [
+      "ST125",
+      "ST126"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "PARINVOL": {
+    "sektion": "2.1.3",
+    "titel": "Engagement der Eltern in schulischen Aktivitäten",
+    "beschreibung": "Engagement der Eltern",
+    "fragestamm": "Haben Sie im letzten Schuljahr an einer der folgenden schulischen Aktivitäten teilgenom-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wur- den bereits in PISA 2009 (PA15), PISA 2012 (PA10), PISA 2015 (PA008) und PISA 2018 (PA008) erhoben.",
+    "basiert_auf": [
+      "PA008",
+      "PA008Q01TA",
+      "PA008Q02TA",
+      "PA008Q03TA",
+      "PA008Q04TA",
+      "PA10",
+      "PA15"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "PQSCHOOL": {
+    "sektion": "63.5",
+    "titel": "PAQTA 1, .8  9.0  5.7  2.1 3, .5",
+    "beschreibung": "Beurteilung der Schulqualität  PASCHPOL – Schulrichtlinien für Elternbeteiligung",
+    "fragestamm": "Wir interessieren uns dafür, was Sie über die Schule Ihres Kindes denken.",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Die Skala (PQSCHOOL) wurde bereits in PISA 2006 (PQSCHOOL; PA03), PISA 2009 (D_PQSCHOOL; PA14), PISA 2012 (PQSCHOOL; PA09), PISA 2015 (PQSCHOLL; PA007) und PISA 2018 (PQSCHOLL; PA007) erhoben.",
+    "basiert_auf": [
+      "PA007",
+      "PA007Q01TA",
+      "PA007Q02TA",
+      "PA007Q03TA",
+      "PA03",
+      "PA09",
+      "PA14"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "CREATACT": {
+    "sektion": "2.2.4",
+    "titel": "Außerschulische Aktivitäten",
+    "beschreibung": "Teilnahme an kreativen außerschulischen Aktivitäten",
+    "fragestamm": "Wie oft nimmt Ihr Kind an den folgenden Aktivitäten außerhalb der Schule teil? Geben Sie",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Kategorien 1 = Nie oder fast nie 2. Elternfragebogen 211 2 = Etwa ein - oder zweimal im Jahr 3 = Etwa ein - oder zweimal im Monat 4 = Ein - oder zweimal in der Woche 5 = Jeden Tag oder fast jeden Tag 6 = Wird nicht angeboten",
+    "basiert_auf": [
+      "PA186Q01JA",
+      "PA186Q02JA",
+      "PA186Q03JA",
+      "PA186Q04JA",
+      "PA186Q05JA",
+      "PA186Q06JA",
+      "PA186Q07JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "CREATHME": {
+    "sektion": "2.3.1",
+    "titel": "Kreatives Wohnumfeld",
+    "beschreibung": "Kreatives Wohnumfeld",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "PA185Q01JA",
+      "PA185Q02JA",
+      "PA185Q03JA",
+      "PA185Q04JA",
+      "PA185Q05JA",
+      "PA185Q07JA",
+      "PA185Q08JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "CREATOPN": {
+    "sektion": "2.3.3",
+    "titel": "Eigene Kreativität",
+    "beschreibung": "Selbstwahrgenommene Kreativität",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "PA188Q01JA",
+      "PA188Q02JA",
+      "PA188Q03JA",
+      "PA188Q04JA",
+      "PA188Q05JA",
+      "PA188Q06JA",
+      "PA188Q08JA",
+      "PA188Q09JA",
+      "PA188Q10JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "CREATOR": {
+    "sektion": "2.3.4",
+    "titel": "Kreativität des Kindes",
+    "beschreibung": "Offenheit für Kreativität: Fremdwahrnehmung",
+    "fragestamm": "Denken Sie bei dieser Frage an Ihr Kind. Wie sehr stimmen Sie folgenden Aussagen zu",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "PA189Q01JA",
+      "PA189Q02JA",
+      "PA189Q03JA",
+      "PA189Q04JA",
+      "PA189Q05JA",
+      "PA189Q06JA",
+      "PA189Q09JA",
+      "PA189Q10JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "ATTIMMP": {
+    "sektion": "2.4.2",
+    "titel": "Einstellung der Eltern zu gleichen Rechten für Zuwander*innen",
+    "beschreibung": "Einstellungen der Eltern zu gleichen Rechten für Zuwander*innen Parents‘ attitudes towards immigrants)",
+    "fragestamm": "Menschen ziehen zunehmend von einem Land in ein anderes. Wie sehr stimmen Sie den",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Items wurden bereits in PISA 2018 (PA167) erhoben. Die Skala wurde auch bei den Lehr- kräften (TCATTIMM – siehe unter 3.2.12 Einstellungen der Lehrkräfte zu glei- chen Rechten für Zuwander*innen) erhoben.",
+    "basiert_auf": [
+      "PA167",
+      "PA167Q02HA",
+      "PA167Q03HA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "PQMIMP": {
+    "sektion": "2.6.6",
+    "titel": "Mathematische Fähigkeiten auf dem Arbeitsmarkt",
+    "beschreibung": "Einstellungen der Eltern zur Mathematik",
+    "fragestamm": "Uns interessiert, wie Sie über den Bedarf an mathematischen Fähigkeiten auf dem aktuel-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Frage wurde bereits in ähnlicher Form in PISA 2012 (PA14) erhoben.",
+    "basiert_auf": [
+      "PA14",
+      "PA196Q01WA",
+      "PA196Q02WA",
+      "PA196Q03WA",
+      "PA196Q04WA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "DEVNEED": {
+    "sektion": "3.1.14",
+    "titel": "Lehrkräftequalifikationen/Fortbildungen – Fortbildungsbedarf",
+    "beschreibung": "Fortbildungsbedarf",
+    "fragestamm": "Waren folgende Themen Teil Ihrer Lehramtsausbildung bzw. Ihres Schulungspro-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Dieses Item wurde bereits in PISA 2018 (TC185) erhoben.",
+    "basiert_auf": [
+      "TC185",
+      "TC185Q01HA",
+      "TC185Q02NA",
+      "TC185Q03HA",
+      "TC185Q04HA",
+      "TC185Q05HA",
+      "TC185Q06HA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "PRPDT": {
+    "sektion": "3.1.16",
+    "titel": "Aktivitäten bezüglich der beruflichen Entwicklung in den letzten 12 Monaten",
+    "beschreibung": "Anteil beruflicher Weiterbildung",
+    "fragestamm": "Haben Sie in den letzten 12 Monaten an folgenden Aktivitäten teilgenommen?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wur- den bereits in PISA 2015 (TC020) und PISA 2018 (TC020) erhoben.",
+    "basiert_auf": [
+      "TC020",
+      "TC020Q01NA",
+      "TC020Q02NA",
+      "TC020Q03NA",
+      "TC020Q04NA",
+      "TC020Q05NA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "SEFFCM": {
+    "sektion": "59.05",
+    "titel": "TCQJA  9. 5. 0   .",
+    "beschreibung": "Selbstwirksamkeitserwartungen in Bezug auf die Klassenführung  SEFFREL – Selbstwirksamkeitserwartungen in Bezug auf das Aufrechterhal- ten/Herstellen positiver Beziehungen zu den Schüler*innen  SEFFINS – Selbstwirksamkeitserwartungen in Bezug auf das Unterrichten",
+    "fragestamm": "Inwieweit ist Ihnen im Rahmen Ihrer Lehrtätigkeit Folgendes möglich?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Items wurden bereits in PISA 2018 (TC199) erhoben.",
+    "basiert_auf": [
+      "TC199",
+      "TC199Q01HA",
+      "TC199Q02HA",
+      "TC199Q03HA",
+      "TC199Q04HA",
+      "TC199Q05HA",
+      "TC199Q06HA",
+      "TC199Q07HA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "ADAPTINSTR": {
+    "sektion": "3.2.11",
+    "titel": "Konstruktive Unterstützung im Unterricht",
+    "beschreibung": "Schüler*innenbeurteilung - Differenzierung  FEEDBINSTR - Feedback der Lehrkraft",
+    "fragestamm": "Wie häufig kommt in Ihren Unterrichtsstunden Folgendes vor?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wur- den bereits in PISA 2018 (TC202Q) erhoben. Diese Skala wurde nur aus Sicht der Lehrkräfte, die nicht Mathematik unter-richten, erhoben.",
+    "basiert_auf": [
+      "TC202Q",
+      "TC232Q01JA",
+      "TC232Q02JA",
+      "TC232Q03A",
+      "TC232Q04JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "TCATTIMM": {
+    "sektion": "3.2.12",
+    "titel": "Einstellungen der Lehrkräfte zu gleichen Rechten für Zuwander*innen",
+    "beschreibung": "Einstellungen der Lehrkräfte zu gleichen Rechten für Zuwan- der*innen",
+    "fragestamm": "Menschen ziehen zunehmend von einem Land in ein anderes. Wie sehr stimmen Sie",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Items wurden bereits in PISA 2018 (TC196Q) erhoben. Die Skala wurde auch aus Sicht der Eltern (ATTIMMP – siehe unter 2.4.2 Ein- stellungen der Eltern zu gleichen Rechten für Zuwander*innen) erhoben.",
+    "basiert_auf": [
+      "TC196Q",
+      "TC196Q02HA",
+      "TC196Q03HA",
+      "TC196Q04HA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "EXCHT": {
+    "sektion": "3.2.13",
+    "titel": "Austausch und Koordination in Bezug auf das Unterrichten",
+    "beschreibung": "Austauch und Koordination in Bezug auf das Unterrichten",
+    "fragestamm": "Wie oft machen Sie im Durchschnitt Folgendes an dieser Schule?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Frage wurde bereits in PISA 2015 (EXCHT, TC046) und PISA 2018 (EXCHT, TC046) erho- ben.",
+    "basiert_auf": [
+      "TC046",
+      "TC046Q04NA",
+      "TC046Q05NA",
+      "TC046Q06NA",
+      "TC046Q07NA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "TCICTUSE": {
+    "sektion": "3.2.15",
+    "titel": "Nutzung spezifischer ICT- Anwendungen von Lehrkräften",
+    "beschreibung": "Nutzung spezifischer ICT-Anwendungen durch die Lehrkräfte",
+    "fragestamm": "Wie oft haben Sie folgende Hilfsmittel während des laufendes Schuljahres in Ihrem Un-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Items wurden bereits in PISA 2018 (TC169Q) erhoben, mit der Ausnahme, dass bei Item TC169Q15JA andere Beispiele verwendet wurden.",
+    "basiert_auf": [
+      "TC169Q",
+      "TC169Q01HA",
+      "TC169Q02HA",
+      "TC169Q03HA",
+      "TC169Q04HA",
+      "TC169Q05HA",
+      "TC169Q06HA",
+      "TC169Q15JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "TCDIGRES": {
+    "sektion": "3.2.16",
+    "titel": "Einsatz digitaler Medien im Unterricht",
+    "beschreibung": "Nutzung von Informations - und Kommunikationstechnologie",
+    "fragestamm": "Wie oft haben Sie im laufenden Schuljahr Folgendes gemacht?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "TC220Q02JA",
+      "TC220Q04JA",
+      "TC220Q06JA",
+      "TC220Q07JA",
+      "TC220Q08JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTCOMP": {
+    "sektion": "3.2.17",
+    "titel": "Vermittlung digitaler Kompetenzen",
+    "beschreibung": "Betonung von Informations - und Kommunikationstechnologie",
+    "fragestamm": "Wie wichtig war für Sie die Vermittlung folgender Kompetenzen an Ihre Schülerinnen",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "TC221Q01JA",
+      "TC221Q02JA",
+      "TC221Q03JA",
+      "TC221Q04JA",
+      "TC221Q05JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "ICTOTL": {
+    "sektion": "3.2.18",
+    "titel": "Lerngelegenheiten - Internetverständnis",
+    "beschreibung": "Lehren von Bewusstsein in Bezug auf Informations - und Kommuni- kationstechnologien",
+    "fragestamm": "Haben Sie in Ihrem Unterricht schon jemals die folgenden Dinge unterrichtet?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Items wurden bereits in PISA 2018 (TC166) erhoben.",
+    "basiert_auf": [
+      "TC166",
+      "TC166Q01HA",
+      "TC166Q02HA",
+      "TC166Q03HA",
+      "TC166Q04HA",
+      "TC166Q05HA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "TCDISCLIMA": {
+    "sektion": "3.3.4",
+    "titel": "Disziplin im Klassenzimmer",
+    "beschreibung": "Disziplin im Klassenzimmer",
+    "fragestamm": "Wie häufig kommt in Ihrem Mathematikunterricht Folgendes vor?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wur- den bereits in PISA 2018 erhoben. 2022 wurden die Items der Hauptdomäne Mathematik angepasst.",
+    "basiert_auf": [
+      "TC170Q01HA",
+      "TC170Q02HA",
+      "TC170Q03HA",
+      "TC170Q04HA",
+      "TC170Q05HA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "EXPO21TC": {
+    "sektion": "3.3.6",
+    "titel": "Anwendungsbezogene Mathematikaufgaben",
+    "beschreibung": "Lehren von mathematischem Argumentieren und Aufgaben des 21. Jahrhunderts",
+    "fragestamm": "Wie häufig haben Sie Ihren Schülerinnen und Schülern in Ihrem Mathematikunterricht",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Die gleiche Frage wurde auch aus Sicht der Schüler*innen (s. 1.2.7 Häufigkeit mathematischer Transferaufgaben) erhoben.",
+    "basiert_auf": [
+      "TC223Q01JA",
+      "TC223Q02JA",
+      "TC223Q03JA",
+      "TC223Q04JA",
+      "TC223Q05JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "COGACMTC": {
+    "sektion": "3.3.7",
+    "titel": "Anwendungsbezogener Mathematikunterricht",
+    "beschreibung": "Ermutigung zu mathematischem Denken",
+    "fragestamm": "Wie häufig haben Sie im laufenden Schuljahr die folgenden Dinge in Ihrem Mathema-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Eine ähnliche Frage erscheint im Schüler*innenfragebogen (s . 1.2.5 Lehrkraftaktivitäten im Mathematikunterricht – Anwendungsbezug).",
+    "basiert_auf": [
+      "TC227Q01JA",
+      "TC227Q02JA",
+      "TC227Q03JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "COGACRTC": {
+    "sektion": "3.3.8",
+    "titel": "Mathematisches Problemlösen",
+    "beschreibung": "Mathematisches Argumentieren fördern",
+    "fragestamm": "Wie häufig haben Sie im laufenden Schuljahr die folgenden Dinge in Ihrem Mathema-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Eine ähnliche Frage wurde auch aus Sicht der Schüler* innen (s. 1.2.4 Lehr- kraftaktivitäten im Mathematikunterricht - Problemlösen) erhoben. 3. Lehrkräftefragebogen 281 Anzahl der Items 9",
+    "basiert_auf": [
+      "TC228Q01JA",
+      "TC228Q02JA",
+      "TC228Q03JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "TCMGOALS": {
+    "sektion": "3.3.9",
+    "titel": "Perspektiven auf den Mathematikunterricht",
+    "beschreibung": "Ziele und Ansichten zum Unterrichten von Mathematik",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Diese Frage wurde aus der TALIS -PISA Verlinkungsstudie übernommen (OECD 2013).",
+    "basiert_auf": [
+      "TC230Q01JA",
+      "TC230Q02JA",
+      "TC230Q03JA",
+      "TC230Q04JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "CREATVAL": {
+    "sektion": "3.4.3",
+    "titel": "Kreatives Unterrichtsklima",
+    "beschreibung": "Werte mit Blick auf Kreativität",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "TC235Q01JA",
+      "TC235Q02JA",
+      "TC235Q03JA",
+      "TC235Q04JA",
+      "TC235Q05JA",
+      "TC235Q06JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "CREATPED": {
+    "sektion": "3.4.4",
+    "titel": "Kreative Pädagogik",
+    "beschreibung": "Nutzung kreativer Pädagogik",
+    "fragestamm": "Wie wichtig sind Ihnen folgende Dinge in Ihrem Unterricht?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "TC236Q01JA",
+      "TC236Q02JA",
+      "TC236Q03JA",
+      "TC236Q04JA",
+      "TC236Q05JA",
+      "TC236Q06JA",
+      "TC236Q07JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "AFFECT": {
+    "sektion": "3.5.1",
+    "titel": "Konzentrationsfähigkeit",
+    "beschreibung": "Affekt",
+    "fragestamm": "In den vergangenen zwei Wochen, wie häufig haben Sie sich an einem Schultag so ge-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Diese Frage wurde aus der 6. Europäischen Erhebung über die Arbeits- bedingungen 2015 übernommen (Eurofound 2017).",
+    "basiert_auf": [
+      "TC238Q01JA",
+      "TC238Q02JA",
+      "TC238Q03JA",
+      "TC238Q04JA",
+      "TC238Q05JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "TRUST": {
+    "sektion": "3.5.2",
+    "titel": "Vertrauensvolles Arbeitsklima",
+    "beschreibung": "Vertrauensvolles Umfeld",
+    "fragestamm": "Wenn Sie an das allgemeine Klima an dieser Schule denken, wie sehr stimmen Sie fol-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Diese Frage wurde aus dem TALIS Lehrkräftefragebogen übernommen.",
+    "basiert_auf": [
+      "TC241Q01JA",
+      "TC241Q02JA",
+      "TC241Q03JA",
+      "TC241Q04JA",
+      "TC241Q05JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "OVERLOAD": {
+    "sektion": "0.03",
+    "titel": "0. -3.1 1.6  .",
+    "beschreibung": "Überbelastung",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen hinsichtlich Ihrer Tätigkeit an dieser Schule zu",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "TC243Q01JA",
+      "TC243Q02JA",
+      "TC243Q03JA",
+      "TC243Q04JA",
+      "TC243Q05JA",
+      "TC243Q06JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "AUTONOMY": {
+    "sektion": "3.5.4",
+    "titel": "Selbstbestimmtes Arbeiten",
+    "beschreibung": "Selbstbestimmtes Arbeiten",
+    "fragestamm": "Wie viel Einfluss haben Sie auf die folgenden Bereiche an Ihrer derzeitigen Schule?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Diese Frage wurde aus dem TALIS Lehrkräftefragebogen übernommen.",
+    "basiert_auf": [
+      "TC246Q01JA",
+      "TC246Q02JA",
+      "TC246Q03JA",
+      "TC246Q04JA",
+      "TC246Q05JA",
+      "TC246Q06JA",
+      "TC246Q07JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "LEADSHIP": {
+    "sektion": "3.5.10",
+    "titel": "Aktivitäten der Schulleitung",
+    "beschreibung": "Schulleitung",
+    "fragestamm": "In den vergangenen 12 Monaten, wie häufig hat sich die Schulleitung dieser Schule in",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Diese Frage wurde aus dem TALIS Schulleitungsfragebogen übernom- men.",
+    "basiert_auf": [
+      "TC253Q01JA",
+      "TC253Q02JA",
+      "TC253Q03JA",
+      "TC253Q04JA",
+      "TC253Q05JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "STRESS": {
+    "sektion": "3.5.12",
+    "titel": "Ursachen für Stress",
+    "beschreibung": "Ursachen für Stress",
+    "fragestamm": "Wenn Sie an Ihre Tätigkeit an dieser Schule denken, inwieweit löst Folgendes bei Ihrer",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022. Diese Frage wurde aus dem TALIS Schulleitungsfragebogen übernom- men.",
+    "basiert_auf": [
+      "TC255Q01JA",
+      "TC255Q02JA",
+      "TC255Q03JA",
+      "TC255Q04JA",
+      "TC255Q05JA",
+      "TC255Q06JA",
+      "TC255Q07JA",
+      "TC255Q08JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "SATJOB": {
+    "sektion": "0.26",
+    "titel": "0.  0.  1.  1.  3.",
+    "beschreibung": "Zufriedenheit mit der aktuellen Arbeitsplatzumgebung  SATTEACH – Zufriedenheit mit dem Lehrberuf allgemein",
+    "fragestamm": "Wir würden gerne erfahren, was Sie allgemein von Ihrer Arbeit halten. Inwieweit treffen",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Frage wurde bereits in PISA 2015 (SATJOB/SATTEACH, TC026) und PISA 2018 (SATJOB/SATTEACH, TC198) erhoben. 3. Lehrkräftefragebogen 308 Anzahl der Items 9",
+    "basiert_auf": [
+      "TC026",
+      "TC198",
+      "TC198Q01HA",
+      "TC198Q02HA",
+      "TC198Q04HA",
+      "TC198Q05HA",
+      "TC198Q06HA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "STAFFSHORT": {
+    "sektion": "4.1.7",
+    "titel": "Mangel an Schulpersonal und Unterrichtsmaterial",
+    "beschreibung": "Mangel an Schulpersonal  EDUSHORT – Mangel an Unterrichtsmaterial",
+    "fragestamm": "Wird der Unterricht an Ihrer Schule durch die folgenden Faktoren beeinträchtigt?",
+    "items": [],
+    "basiert_auf": [
+      "SC017",
+      "SC017Q01NA",
+      "SC017Q02NA",
+      "SC017Q03NA",
+      "SC017Q04NA",
+      "SC017Q05NA",
+      "SC017Q06NA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "MTTRAIN": {
+    "sektion": "4.3.6",
+    "titel": "Arten von schulinternen Fort - und Weiterbildungen für Mathematiklehrkräfte",
+    "beschreibung": "Fort- und Weiterbildungen für Mathematiklehrkräfte",
+    "fragestamm": "Welche der folgenden Arten von schulinternen Fort - und Weiterbildungsveranstaltun-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wur- den bereits in PISA 2015 (SC027) erhoben und in PISA 2022 an die Hauptdo- mäne Mathematik angepasst.",
+    "basiert_auf": [
+      "SC027",
+      "SC183Q02",
+      "SC183Q03",
+      "SC183Q04"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "EDULEAD": {
+    "sektion": "4.4.4",
+    "titel": "Aufgaben der Schulleitung",
+    "beschreibung": "Pädagogische Leitung  INSTLEAD – Didaktische Leitung",
+    "fragestamm": "Wie oft haben Sie oder andere Mitglieder der Schulleitung sich in den letzten 12 Mona-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "SC201Q01JA",
+      "SC201Q03JA",
+      "SC201Q04JA",
+      "SC201Q05JA",
+      "SC201Q06JA",
+      "SC201Q07JA",
+      "SC201Q11JA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "TEAFDBK": {
+    "sektion": "4.4.8",
+    "titel": "Einfluss der Beurteilung von Lehrkräften",
+    "beschreibung": "Beurteilung von Lehrkräften",
+    "fragestamm": "Welchen Einfluss haben Beurteilungen von Lehrkräften an Ihrer Schule auf die folgen-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wur- den bereits in PISA 2012 (SC31) erhoben.",
+    "basiert_auf": [
+      "SC193Q01WA",
+      "SC193Q02WA",
+      "SC193Q03WA",
+      "SC193Q04WA",
+      "SC193Q05WA",
+      "SC193Q06WA",
+      "SC193Q07WA",
+      "SC31"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "STDTEST": {
+    "sektion": "4.4.10",
+    "titel": "Verwendung von Testergebnissen",
+    "beschreibung": "Verwendung standardisierter Tests  TDTEST – Verwendung von durch Lehrkräfte entwickelte Tests",
+    "fragestamm": "Werden an Ihrer Schule standardisierte Tests und/oder von Lehrkräften entwickelte",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Die Items wurden be- reits in PISA 2015 (SC035) erhoben. Nur Schulleitungen, die bei einem der 4. Schulleitungsfragebogen 345 ersten drei Items von SC034 nicht mit \"Nie\" antworteten, haben diese Frage er- halten.",
+    "basiert_auf": [
+      "SC034",
+      "SC035",
+      "SC035Q01NA",
+      "SC035Q01NB",
+      "SC035Q02TA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "STUBEHA": {
+    "sektion": "4.5.1",
+    "titel": "Beeinträchtigung des Schulklimas durch Schüler*innen- und Lehrkräfteverhalten",
+    "beschreibung": "Beeinträchtigung des Schulklimas durch Schüler*innenverhalten  TECHBEHA – Beeinträchtigung des Schulklimas durch Lehrkräfteverhalten",
+    "fragestamm": "Wie sehr wir das Lernen von Schülerinnen und Schülern an Ihrer Schule durch Folgen-des beeinträchtigt?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Die Frage wurde be- reits in PISA 2012 (STUDCLIM/TEACCLIM; SC022), PISA 2015 (STU- BEHA/TEACHBEHA; SC061) und PISA 2018 (SC061) erhoben.",
+    "basiert_auf": [
+      "SC022",
+      "SC061",
+      "SC061Q01",
+      "SC061Q02",
+      "SC061Q03",
+      "SC061Q04",
+      "SC061Q05",
+      "SC061Q11"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "DMCVIEWS": {
+    "sektion": "4.5.2",
+    "titel": "Wertschätzung und Förderung eines transkulturellen Weltbildes",
+    "beschreibung": "Schulvielfalt und Förderung eines transkulturellen Weltbildes",
+    "fragestamm": "Wie oft hat das Schulpersonal in diesem Schuljahr Folgendes unternommen?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "SC173Q01",
+      "SC173Q02",
+      "SC173Q03"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "CREENVSC": {
+    "sektion": "4.8.2",
+    "titel": "Kreatives Schul - und Unterrichtsklima",
+    "beschreibung": "Kreatives Schul - und Unterrichtsklima",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "SC205Q01",
+      "SC205Q02",
+      "SC205Q03",
+      "SC205Q05",
+      "SC205Q06"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "OPENCUL": {
+    "sektion": "4.8.4",
+    "titel": "Fähigkeiten der Schüler*innen",
+    "beschreibung": "Offenes und kreatives Schulklima",
+    "fragestamm": "Wie sehr stimmen Sie folgenden Aussagen zu oder nicht zu?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022.",
+    "basiert_auf": [
+      "SC208Q01",
+      "SC208Q02",
+      "SC208Q03",
+      "SC208Q04",
+      "SC208Q05",
+      "SC208Q06"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "DIGPREP": {
+    "sektion": "4.9.2",
+    "titel": "ICT-Kapazitäten der Schule",
+    "beschreibung": "ICT-Kapazitäten",
+    "fragestamm": "Wie sehr stimmen Sie den folgenden Aussagen über die Kapazitäten Ihrer Schule zu,",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Diese Frage wurde bereits in ähnlicher Form in PISA 2018 (SC155) erhoben.",
+    "basiert_auf": [
+      "SC155",
+      "SC155Q06",
+      "SC155Q07",
+      "SC155Q08",
+      "SC155Q09"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "ENCOURPG": {
+    "sektion": "4.10.2",
+    "titel": "Kooperation mit Eltern oder erwachsenen Bezugspersonen",
+    "beschreibung": "Kooperation mit Eltern oder erwachsenen Bezugspersonen",
+    "fragestamm": "Wie oft hat das Schulpersonal in diesem Schuljahr Folgendes unternommen?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wur- den bereits in PISA 2015 (SC063) erhoben.",
+    "basiert_auf": [
+      "SC063",
+      "SC192Q01",
+      "SC192Q02",
+      "SC192Q03",
+      "SC192Q04",
+      "SC192Q05"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "ALLACTIV": {
+    "sektion": "4.11.1",
+    "titel": "Außerunterrichtliche Schulangebote",
+    "beschreibung": "Außerunterrichtliche Schulangebote",
+    "fragestamm": "Welche der folgenden Aktivitäten werden für Schülerinnen und Schüler der 9.Jahr-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Ähnliche Items wur- den bereits in PISA 2009 (SC13), PISA 2012 (SC16), PISA 2015 (SC053) und PISA 2018 (SC053) erhoben. Der Index CREACTIV gibt an, in welchem Umfang Schulen kreative außerun- terrichtliche Schulaktivitäten (SC053C01, SC053C02 und SC053C07) anbie- ten. Literatur Kuger (2016)",
+    "basiert_auf": [
+      "SC053",
+      "SC053C01",
+      "SC053C02",
+      "SC053C03",
+      "SC053C04",
+      "SC053C05",
+      "SC053C07",
+      "SC13",
+      "SC16"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "PROBSCRI": {
+    "sektion": "4.12.4",
+    "titel": "Einschränkungen während des Distanzunterrichts",
+    "beschreibung": "Probleme, Distanzunterricht anzubieten",
+    "fragestamm": "Als im Schulgebäude wegen der Coronakrise kein Unterricht für Schülerinnen und Schü-",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022 zur Erfassung der Erfahrungen während der Corona-Pandemie. 4. Schulleitungsfragebogen 379 Anzahl der Items 9",
+    "basiert_auf": [
+      "SC216Q01",
+      "SC216Q02",
+      "SC216Q03",
+      "SC216Q04",
+      "SC216Q05"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "SCPREPBP": {
+    "sektion": "4.12.11",
+    "titel": "Maßnahmen zur Vorbereitung auf den Distanzunterricht",
+    "beschreibung": "Maßnahmen zur Vorbereitung auf Distanzunterricht, vor Pande- mie",
+    "fragestamm": "Hat Ihre Schule folgende Maßnahmen ergriffen, um sich auf den Distanzunterricht vor-zubereiten?",
+    "items": [],
+    "anmerkung": "Übersetztes Erhebungsmaterial der OECD (PISA 2022). Neue Frage in PISA 2022 zur Erfassung der Erfahrungen während der Corona-Pandemie.",
+    "basiert_auf": [
+      "SC223Q01",
+      "SC223Q02",
+      "SC223Q03"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "SCHLTYPE": {
+    "sektion": "4.13.1",
+    "titel": "Träger und Finanzierung der Schule",
+    "beschreibung": "Index zum Träger in Kombination mit der Finanzierung der Schule",
+    "fragestamm": "SC013Q01TA  Ist Ihre Schule eine öffentliche oder eine private Schule?",
+    "items": [],
+    "anmerkung": "Dieser Index wurde in allen vorhergehenden PISA -Erhebungen erhoben. Der Index wird als Kombination aus den Fragen SC013 sowie SC016 gebildet. In der PISA-Erhebung 2009 wurde dieser Index unter der Kurzbezeichnung SCHTYPE erhoben.",
+    "basiert_auf": [
+      "SC013",
+      "SC013Q01TA",
+      "SC016",
+      "SC016Q01TA",
+      "SC016Q02TA",
+      "SC016Q03TA"
+    ],
+    "typ": "zusammengesetzter_index"
+  },
+  "SMRATIO": {
+    "sektion": "4.13.2",
+    "titel": "Verhältnis Schüler*innen- Mathematiklehrkräfte",
+    "beschreibung": "Verhältnis Schüler*innen-Mathematiklehrkräfte",
+    "fragestamm": "SCHSIZE  Gesamtzahl der (eingeschriebenen) Schüler*innen",
+    "items": [],
+    "anmerkung": "Das Schüler*innen-Mathemtiklehrkräfte-Verhältnis wurde ermittelt, indem die",
+    "typ": "zusammengesetzter_index"
+  }
+}
