@@ -20,7 +20,7 @@ st.set_page_config(
 # ============================================
 
 st.title("🔍 Phase 2: Skalen-Explorer")
-st.markdown("**58 verfügbare WLE-Skalen durchsuchen und verstehen**")
+st.markdown("**58 ausgewählte WLE-Skalen (von 157 im Datensatz) durchsuchen und verstehen**")
 
 st.divider()
 
@@ -50,7 +50,7 @@ with col1:
 
 with col2:
     show_only_available = st.checkbox(
-        "Nur verfügbare Skalen (58)",
+        "Nur ausgewählte Skalen (58 von 157)",
         value=True,
         help="Blendet leere Skalen aus"
     )

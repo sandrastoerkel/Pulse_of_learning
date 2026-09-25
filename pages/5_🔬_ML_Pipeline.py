@@ -49,7 +49,7 @@ with col1:
     st.markdown("""
     ### 🧹 Step 1: Preprocessing
 
-    - Feature Selection (58 Skalen)
+    - Feature Selection (58 ausgewählte Skalen von 157 im Datensatz)
     - Missing Value Treatment
     - Outlier Check
     - Standardization

@@ -95,7 +95,7 @@ with col2:
     ### Phase 2-3: Verstehen
 
     ✅ **Wie wird es gemessen?**
-    - 58 verfügbare Skalen durchsuchen
+    - 58 ausgewählte Skalen (von 157 im Datensatz) durchsuchen
     - Einzelfragen ansehen
     - Test-Templates erstellen
 
@@ -144,4 +144,4 @@ st.divider()
 # FOOTER
 # ============================================
 
-st.caption("📚 Basierend auf PISA 2022 Deutschland-Daten | 58 verfügbare WLE-Skalen")
+st.caption("📚 Basierend auf PISA 2022 Deutschland-Daten | 58 ausgewählte WLE-Skalen (von 157 im Datensatz)")

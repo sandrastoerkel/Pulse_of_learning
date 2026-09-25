@@ -64,7 +64,7 @@ if importance_df is None:
     2. Führe dort Preprocessing, Training und SHAP-Analyse durch
     3. Komme hierher zurück für die Ergebnisse
 
-    **Oder:** Nutze die vorhandenen 58 Skalen in **Phase 2: Skalen-Explorer**
+    **Oder:** Nutze die 58 ausgewählten Skalen (von 157 im Datensatz) in **Phase 2: Skalen-Explorer**
     """)
 
     # Quick Action Button
