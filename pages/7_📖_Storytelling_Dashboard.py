@@ -1,4 +1,5 @@
 import streamlit as st
+from utils.quadrants import QUADRANT_LABELS, QUADRANT_SHORT, summarize_quadrants, interpretation_markdown as quadrant_interpretation, support_markdown as quadrant_support_text, support_finding as quadrant_support_finding, assign_quadrants, coverage_caption as quadrant_coverage_caption
 import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -1178,44 +1179,30 @@ def main():
                         Durch Kombination von Selbstwirksamkeit und Angst entstehen vier Profile:
                         """)
                         
-                        # Berechne Quadranten (Median-Split)
-                        median_matheff = df['MATHEFF'].median()
-                        median_anxmat = df['ANXMAT'].median()
-                        
-                        df['quadrant'] = 'Q4'  # Default
-                        
-                        # Q1: Hohe Selbstwirksamkeit, Niedrige Angst
-                        df.loc[(df['MATHEFF'] >= median_matheff) & (df['ANXMAT'] < median_anxmat), 'quadrant'] = 'Q1'
-                        
-                        # Q2: Hohe Selbstwirksamkeit, Hohe Angst
-                        df.loc[(df['MATHEFF'] >= median_matheff) & (df['ANXMAT'] >= median_anxmat), 'quadrant'] = 'Q2'
-                        
-                        # Q3: Niedrige Selbstwirksamkeit, Hohe Angst
-                        df.loc[(df['MATHEFF'] < median_matheff) & (df['ANXMAT'] >= median_anxmat), 'quadrant'] = 'Q3'
-                        
-                        # Q4: Niedrige Selbstwirksamkeit, Niedrige Angst
-                        df.loc[(df['MATHEFF'] < median_matheff) & (df['ANXMAT'] < median_anxmat), 'quadrant'] = 'Q4'
+                        # Quadranten (Median-Split, nur vollständige Fälle; FIX4)
+                        df['quadrant'], median_matheff, median_anxmat = assign_quadrants(df)
+                        st.caption(quadrant_coverage_caption(df['quadrant']))
                         
                         # Berechne Statistiken pro Quadrant
                         quadrant_stats = df.groupby('quadrant').agg({
                             'math_score': ['mean', 'count']
                         }).round(0)
                         quadrant_stats.columns = ['Ø Leistung', 'N']
-                        quadrant_stats['Anteil'] = (quadrant_stats['N'] / len(df) * 100).round(1)
+                        quadrant_stats['Anteil'] = (quadrant_stats['N'] / quadrant_stats['N'].sum() * 100).round(1)
                         
                         # Labels für Quadranten
                         quadrant_labels = {
-                            'Q1': 'Q1: Optimal\n(Hohe Selbstwirksamkeit,\nNiedrige Angst)',
-                            'Q2': 'Q2: Ambivalent\n(Hohe Selbstwirksamkeit,\nHohe Angst)',
-                            'Q3': 'Q3: Risikogruppe\n(Niedrige Selbstwirksamkeit,\nHohe Angst)',
-                            'Q4': 'Q4: Indifferent\n(Niedrige Selbstwirksamkeit,\nNiedrige Angst)'
+                            'Q1': 'Q1: Viel Zutrauen, wenig Angst\n(Hohe Selbstwirksamkeit,\nNiedrige Angst)',
+                            'Q2': 'Q2: Viel Zutrauen, viel Angst\n(Hohe Selbstwirksamkeit,\nHohe Angst)',
+                            'Q3': 'Q3: Wenig Zutrauen, viel Angst\n(Niedrige Selbstwirksamkeit,\nHohe Angst)',
+                            'Q4': 'Q4: Wenig Zutrauen, wenig Angst\n(Niedrige Selbstwirksamkeit,\nNiedrige Angst)'
                         }
                         
                         # Scatter Plot mit Quadranten
                         df['quadrant_label'] = df['quadrant'].map(quadrant_labels)
                         
                         fig = px.scatter(
-                            df,
+                            df[df['quadrant'].notna()],
                             x='MATHEFF',
                             y='ANXMAT',
                             color='quadrant_label',
@@ -1261,7 +1248,7 @@ def main():
                         
                         quadrants = ['Q1', 'Q2', 'Q3', 'Q4']
                         colors_box = ['#43A047', '#FDD835', '#E53935', '#1E88E5']
-                        labels_short = ['Optimal', 'Ambivalent', 'Risiko', 'Indifferent']
+                        labels_short = [QUADRANT_SHORT[q] for q in ['Q1', 'Q2', 'Q3', 'Q4']]
                         
                         for i, (col, q, color, label) in enumerate(zip([col1, col2, col3, col4], 
                                                                          quadrants, colors_box, labels_short)):
@@ -1276,69 +1263,65 @@ def main():
                                     </div>
                                     """, unsafe_allow_html=True)
                         
+                        st.info(quadrant_interpretation(summarize_quadrants(df, 'math_score')))
+                        
                         st.markdown("---")
                         
                         # Handlungsempfehlungen pro Quadrant
                         st.markdown("**💡 Interventionsempfehlungen nach Profil:**")
                         
-                        with st.expander("Q1: Optimal (Grün) - Fördern & Herausfordern"):
+                        with st.expander("Q1: Viel Zutrauen, wenig Angst (Grün) - Fördern & Herausfordern"):
                             st.markdown("""
                             **Charakteristika:**
-                            - Hohe Selbstwirksamkeit + Niedrige Angst
-                            - Beste Leistungsgruppe
-                            - Intrinsisch motiviert
+                            - Hohe Selbstwirksamkeit + niedrige Angst
+                            - Höchster Mittelwert in dieser Stichprobe (siehe Kacheln)
                             
                             **Empfohlene Maßnahmen:**
                             - ✅ Challenge & Extension: Anspruchsvolle Aufgaben anbieten
-                            - ✅ Peer-Tutoring: Als Tutoren für andere Schüler einsetzen
+                            - ✅ Peer-Learning: Andere Schüler:innen beim Erklären unterstützen
                             - ✅ Selbstreguliertes Lernen: Autonomie fördern
-                            - ❌ Keine Intervention nötig (Ressourcen für Risikogruppen)
                             """)
                         
-                        with st.expander("Q2: Ambivalent (Gelb) - Prüfungsangst adressieren"):
+                        with st.expander("Q2: Viel Zutrauen, viel Angst (Gelb) - Umgang mit Prüfungsangst"):
                             st.markdown("""
                             **Charakteristika:**
-                            - Hohe Selbstwirksamkeit + Hohe Angst
+                            - Hohe Selbstwirksamkeit + hohe Angst
                             - "Ich kann es, aber ich habe Angst"
-                            - Prüfungsangst, keine Fähigkeitsangst
+                            - Hier ist der Unterschied durch Angst in dieser Stichprobe am größten (Q1 vs. Q2)
                             
                             **Empfohlene Maßnahmen:**
                             - ✅ Entspannungstechniken: Progressive Muskelrelaxation
                             - ✅ Prüfungssimulationen: Angst durch Gewöhnung reduzieren
                             - ✅ Kognitive Umstrukturierung: Katastrophisierende Gedanken hinterfragen
-                            - ⚠️ Fokus auf Angstreduktion, nicht Selbstwirksamkeit
+                            - ⚠️ Fokus auf den Umgang mit Angst; Selbstwirksamkeit ist bereits hoch
                             """)
                         
-                        with st.expander("Q3: Risikogruppe (Rot) - Höchste Priorität!"):
+                        with st.expander("Q3: Wenig Zutrauen, viel Angst (Rot) - Förderbedarf"):
                             st.markdown("""
                             **Charakteristika:**
-                            - Niedrige Selbstwirksamkeit + Hohe Angst
-                            - Schwächste Leistungsgruppe
-                            - "Ich kann es nicht und ich habe Angst"
-                            - Vermeidungsverhalten wahrscheinlich
+                            - Niedrige Selbstwirksamkeit + hohe Angst
+                            - "Ich traue es mir nicht zu und habe Angst"
+                            - Gehört mit Q4 zur Gruppe mit Förderbedarf (niedrige Selbstwirksamkeit)
                             
                             **Empfohlene Maßnahmen:**
-                            - 🚨 **Priorität 1 für Interventionen!**
-                            - ✅ Mastery Experiences: Garantierte Erfolgserlebnisse schaffen
+                            - ✅ Mastery Experiences: Echte, gestufte Erfolgserlebnisse schaffen
                             - ✅ Strukturierte Unterstützung: Kleinschrittige Aufgaben
-                            - ✅ Attributionstraining: Erfolge auf Anstrengung zurückführen
                             - ✅ Peer-Modelle: "Wenn die das können, kann ich das auch"
-                            - ✅ Individuelle Betreuung: Mentoring, Tutoring
+                            - ✅ Umgang mit Mathe-Angst begleiten
+                            - ✅ Individuelle Begleitung: Mentoring, Lernbegleitung
                             """)
                         
-                        with st.expander("Q4: Indifferent (Blau) - Motivation wecken"):
+                        with st.expander("Q4: Wenig Zutrauen, wenig Angst (Blau) - Förderbedarf"):
                             st.markdown("""
                             **Charakteristika:**
-                            - Niedrige Selbstwirksamkeit + Niedrige Angst
-                            - "Ich kann es nicht, aber es ist mir auch egal"
-                            - Mangelnde Motivation, gelangweilt
+                            - Niedrige Selbstwirksamkeit + niedrige Angst
+                            - Gehört mit Q3 zur Gruppe mit Förderbedarf (niedrige Selbstwirksamkeit)
+                            - Motivation oder Engagement werden in diesen Daten nicht gemessen
                             
                             **Empfohlene Maßnahmen:**
+                            - ✅ Erfolgserlebnisse: Selbstwirksamkeit durch echte Erfolge aufbauen
                             - ✅ Relevanz herstellen: Alltagsbezug von Mathe zeigen
-                            - ✅ Interessensorientierung: An Hobbys anknüpfen
-                            - ✅ Erfolgserlebnisse: Selbstwirksamkeit durch Erfolge aufbauen
-                            - ✅ Growth Mindset: "Du kannst es lernen!"
-                            - ⚠️ Zuerst Motivation wecken, dann Kompetenzen aufbauen
+                            - ✅ Interessensorientierung: An Interessen anknüpfen
                             """)
                         
                     else:
@@ -2024,44 +2007,28 @@ def main():
             if 'ANXMAT' in selected_vars and 'MATHEFF' in selected_vars:
                 st.subheader("4️⃣ Quadranten-Analyse")
                 
-                # Berechne Quadranten (schon in Tab 3 gemacht, hier nochmal)
-                median_matheff = df['MATHEFF'].median()
-                median_anxmat = df['ANXMAT'].median()
-                
-                df['quadrant'] = 'Q4'
-                df.loc[(df['MATHEFF'] >= median_matheff) & (df['ANXMAT'] < median_anxmat), 'quadrant'] = 'Q1'
-                df.loc[(df['MATHEFF'] >= median_matheff) & (df['ANXMAT'] >= median_anxmat), 'quadrant'] = 'Q2'
-                df.loc[(df['MATHEFF'] < median_matheff) & (df['ANXMAT'] >= median_anxmat), 'quadrant'] = 'Q3'
-                df.loc[(df['MATHEFF'] < median_matheff) & (df['ANXMAT'] < median_anxmat), 'quadrant'] = 'Q4'
+                # Quadranten (Median-Split, nur vollständige Fälle; FIX4)
+                df['quadrant'], median_matheff, median_anxmat = assign_quadrants(df)
+                st.caption(quadrant_coverage_caption(df['quadrant']))
                 
                 # Statistik pro Quadrant
                 quadrant_stats = df.groupby('quadrant').agg({
                     'math_score': ['mean', 'std', 'count']
                 }).round(2)
                 quadrant_stats.columns = ['Ø Leistung', 'SD Leistung', 'N']
-                quadrant_stats['Anteil %'] = (quadrant_stats['N'] / len(df) * 100).round(1)
+                quadrant_stats['Anteil %'] = (quadrant_stats['N'] / quadrant_stats['N'].sum() * 100).round(1)
                 
-                # Labels
-                quadrant_stats.index = quadrant_stats.index.map({
-                    'Q1': 'Q1: Optimal (Hoch/Niedrig)',
-                    'Q2': 'Q2: Ambivalent (Hoch/Hoch)',
-                    'Q3': 'Q3: Risikogruppe (Niedrig/Hoch)',
-                    'Q4': 'Q4: Indifferent (Niedrig/Niedrig)'
-                })
+                # Datengetriebene Aussagen (FIX4)
+                quad_summary = summarize_quadrants(df, 'math_score')
+                support_pct = quad_summary.get('support_pct', 0.0)
+
+                # Labels (neutral, beschreibend)
+                quadrant_stats.index = quadrant_stats.index.map(QUADRANT_LABELS)
                 
                 st.dataframe(quadrant_stats, use_container_width=True)
                 
-                # Risikogruppe hervorheben
-                q3_n = quadrant_stats.loc['Q3: Risikogruppe (Niedrig/Hoch)', 'N']
-                q3_pct = quadrant_stats.loc['Q3: Risikogruppe (Niedrig/Hoch)', 'Anteil %']
-                q3_perf = quadrant_stats.loc['Q3: Risikogruppe (Niedrig/Hoch)', 'Ø Leistung']
-                
-                st.warning(f"""
-                **⚠️ Risikogruppe (Q3):**
-                - {q3_n:.0f} Schüler ({q3_pct:.1f}% der Stichprobe)
-                - Durchschnittsleistung: {q3_perf:.0f} Punkte
-                - Intervention empfohlen: Fokus auf Selbstwirksamkeitsförderung
-                """)
+                st.info(quadrant_interpretation(quad_summary))
+                st.warning(quadrant_support_text(quad_summary))
                 
                 st.markdown("---")
             
@@ -2098,11 +2065,9 @@ def main():
                     f"{ratio:.2f}x einflussreicher als ANXMAT (r = {float(corr_anxmat):.3f})"
                 )
                 
-                # Finding 4: Risikogruppe
-                findings.append(
-                    f"**Risikogruppe:** {q3_n:.0f} Schüler ({q3_pct:.1f}%) mit niedriger "
-                    f"Selbstwirksamkeit UND hoher Angst → Priorität für Interventionen"
-                )
+                # Finding 4: Gruppe mit Foerderbedarf (aus den Daten abgeleitet)
+                if quad_summary.get('complete'):
+                    findings.append(quadrant_support_finding(quad_summary))
             
             # Finding 5: Durchschnittsleistung
             mean_math = df['math_score'].mean()
@@ -2153,12 +2118,12 @@ def main():
                         'Begründung': f'Mittlere Korrelation (r = {corr_anxmat_val:.3f})'
                     })
             
-            if 'ANXMAT' in selected_vars and 'MATHEFF' in selected_vars and q3_pct > 15:
+            if 'ANXMAT' in selected_vars and 'MATHEFF' in selected_vars and support_pct > 15:
                 recommendations.append({
                     'Priorität': '🔴 Hoch',
-                    'Bereich': 'Risikogruppen-Intervention',
-                    'Maßnahme': 'Individuelle Förderung für Q3-Schüler (niedrige SE + hohe Angst)',
-                    'Begründung': f'{q3_pct:.1f}% der Schüler in kritischer Konstellation'
+                    'Bereich': 'Förderung bei niedriger Selbstwirksamkeit',
+                    'Maßnahme': 'Gezielte Förderung für Q3 + Q4: Selbstwirksamkeit aufbauen; in Q3 zusätzlich Umgang mit Mathe-Angst',
+                    'Begründung': f'{support_pct:.1f}% der Schüler:innen mit niedriger Selbstwirksamkeit'
                 })
             
             recommendations.append({
@@ -2332,10 +2297,11 @@ KORRELATIONEN MIT MATHEMATIKLEISTUNG
             if 'quadrant_stats' in locals():
                 summary_text += f"""
 QUADRANTEN-ANALYSE
-- Q1 (Optimal): {quadrant_stats.loc['Q1: Optimal (Hoch/Niedrig)', 'Anteil %']:.1f}% ({quadrant_stats.loc['Q1: Optimal (Hoch/Niedrig)', 'Ø Leistung']:.0f} Punkte)
-- Q2 (Ambivalent): {quadrant_stats.loc['Q2: Ambivalent (Hoch/Hoch)', 'Anteil %']:.1f}% ({quadrant_stats.loc['Q2: Ambivalent (Hoch/Hoch)', 'Ø Leistung']:.0f} Punkte)
-- Q3 (Risikogruppe): {quadrant_stats.loc['Q3: Risikogruppe (Niedrig/Hoch)', 'Anteil %']:.1f}% ({quadrant_stats.loc['Q3: Risikogruppe (Niedrig/Hoch)', 'Ø Leistung']:.0f} Punkte)
-- Q4 (Indifferent): {quadrant_stats.loc['Q4: Indifferent (Niedrig/Niedrig)', 'Anteil %']:.1f}% ({quadrant_stats.loc['Q4: Indifferent (Niedrig/Niedrig)', 'Ø Leistung']:.0f} Punkte)
+- Q1 (Viel Zutrauen, wenig Angst): {quadrant_stats.loc[QUADRANT_LABELS['Q1'], 'Anteil %']:.1f}% ({quadrant_stats.loc[QUADRANT_LABELS['Q1'], 'Ø Leistung']:.0f} Punkte)
+- Q2 (Viel Zutrauen, viel Angst): {quadrant_stats.loc[QUADRANT_LABELS['Q2'], 'Anteil %']:.1f}% ({quadrant_stats.loc[QUADRANT_LABELS['Q2'], 'Ø Leistung']:.0f} Punkte)
+- Q3 (Wenig Zutrauen, viel Angst): {quadrant_stats.loc[QUADRANT_LABELS['Q3'], 'Anteil %']:.1f}% ({quadrant_stats.loc[QUADRANT_LABELS['Q3'], 'Ø Leistung']:.0f} Punkte)
+- Q4 (Wenig Zutrauen, wenig Angst): {quadrant_stats.loc[QUADRANT_LABELS['Q4'], 'Anteil %']:.1f}% ({quadrant_stats.loc[QUADRANT_LABELS['Q4'], 'Ø Leistung']:.0f} Punkte)
+- Gruppe mit Förderbedarf (Q3 + Q4): {quad_summary['support_pct']:.1f}% (Ø {quad_summary['support_perf']:.0f} Punkte)
 
 HANDLUNGSEMPFEHLUNGEN
 """

@@ -8,6 +8,7 @@ from utils.scale_info import get_scale_info, SCALE_DESCRIPTIONS
 from utils.statistical_analysis import correlation_with_pvalue
 from pathlib import Path
 from io import BytesIO
+from utils.quadrants import QUADRANT_LABELS, MODEL_TEXT as QUADRANT_MODEL_TEXT, summarize_quadrants, interpretation_markdown as quadrant_interpretation, support_markdown as quadrant_support_text, support_finding as quadrant_support_finding, assign_quadrants, coverage_caption as quadrant_coverage_caption
 
 # ============================================
 # PAGE CONFIG
@@ -270,64 +271,46 @@ if len(selected_vars) >= 2:
     if 'ANXMAT' in selected_vars and 'MATHEFF' in selected_vars:
         st.header("5️⃣ Quadranten-Analyse: MATHEFF vs ANXMAT")
 
-        st.info("""
-        **Quadranten-Modell:**
-        - **Q1 (Optimal):** Hohe Selbstwirksamkeit + Niedrige Angst → Beste Leistung
-        - **Q2 (Ambivalent):** Hohe Selbstwirksamkeit + Hohe Angst → Gemischt
-        - **Q3 (Risikogruppe):** Niedrige Selbstwirksamkeit + Hohe Angst → Schlechteste Leistung
-        - **Q4 (Indifferent):** Niedrige Selbstwirksamkeit + Niedrige Angst → Geringes Engagement
-        """)
+        st.info(QUADRANT_MODEL_TEXT)
 
-        # Calculate quadrants
-        median_matheff = df['MATHEFF'].median()
-        median_anxmat = df['ANXMAT'].median()
-
-        df['quadrant'] = 'Q4'
-        df.loc[(df['MATHEFF'] >= median_matheff) & (df['ANXMAT'] < median_anxmat), 'quadrant'] = 'Q1'
-        df.loc[(df['MATHEFF'] >= median_matheff) & (df['ANXMAT'] >= median_anxmat), 'quadrant'] = 'Q2'
-        df.loc[(df['MATHEFF'] < median_matheff) & (df['ANXMAT'] >= median_anxmat), 'quadrant'] = 'Q3'
-        df.loc[(df['MATHEFF'] < median_matheff) & (df['ANXMAT'] < median_anxmat), 'quadrant'] = 'Q4'
+        # Quadranten (Median-Split, nur vollständige Fälle; FIX4)
+        df['quadrant'], median_matheff, median_anxmat = assign_quadrants(df)
+        st.caption(quadrant_coverage_caption(df['quadrant']))
 
         # Statistics per quadrant
         quadrant_stats = df.groupby('quadrant').agg({
             'performance': ['mean', 'std', 'count']
         }).round(2)
         quadrant_stats.columns = ['Ø Leistung', 'SD Leistung', 'N']
-        quadrant_stats['Anteil %'] = (quadrant_stats['N'] / len(df) * 100).round(1)
+        quadrant_stats['Anteil %'] = (quadrant_stats['N'] / quadrant_stats['N'].sum() * 100).round(1)
 
-        # Relabel quadrants
-        quadrant_stats.index = quadrant_stats.index.map({
-            'Q1': 'Q1: Optimal (Hoch/Niedrig)',
-            'Q2': 'Q2: Ambivalent (Hoch/Hoch)',
-            'Q3': 'Q3: Risikogruppe (Niedrig/Hoch)',
-            'Q4': 'Q4: Indifferent (Niedrig/Niedrig)'
-        })
+        # Datengetriebene Aussagen (FIX4): aus den berechneten Mittelwerten abgeleitet
+        quad_summary = summarize_quadrants(df, 'performance')
+
+        # Relabel quadrants (neutral, beschreibend)
+        quadrant_stats.index = quadrant_stats.index.map(QUADRANT_LABELS)
 
         st.dataframe(quadrant_stats, use_container_width=True)
 
-        # Highlight risk group
-        q3_n = quadrant_stats.loc['Q3: Risikogruppe (Niedrig/Hoch)', 'N']
-        q3_pct = quadrant_stats.loc['Q3: Risikogruppe (Niedrig/Hoch)', 'Anteil %']
-        q3_perf = quadrant_stats.loc['Q3: Risikogruppe (Niedrig/Hoch)', 'Ø Leistung']
+        st.info(quadrant_interpretation(quad_summary))
 
-        st.warning(f"""
-        **⚠️ Risikogruppe (Q3):**
-        - **{q3_n:.0f} Schüler** ({q3_pct:.1f}% der Stichprobe)
-        - **Durchschnittsleistung:** {q3_perf:.0f} Punkte
-        - **Intervention dringend empfohlen:** Fokus auf Selbstwirksamkeitsförderung und Angstreduktion
-        """)
+        # Gruppe mit Foerderbedarf (Q3 + Q4)
+        support_n = quad_summary.get('support_n', 0)
+        support_pct = quad_summary.get('support_pct', 0.0)
+        st.warning(quadrant_support_text(quad_summary))
 
-        # Optimal group
-        q1_n = quadrant_stats.loc['Q1: Optimal (Hoch/Niedrig)', 'N']
-        q1_pct = quadrant_stats.loc['Q1: Optimal (Hoch/Niedrig)', 'Anteil %']
-        q1_perf = quadrant_stats.loc['Q1: Optimal (Hoch/Niedrig)', 'Ø Leistung']
+        # Gruppe mit viel Zutrauen und wenig Angst (Q1)
+        if 'Q1' in quad_summary['means'].index:
+            q1_n = quad_summary['counts']['Q1']
+            q1_pct = q1_n / quad_summary['total'] * 100
+            q1_perf = quad_summary['means']['Q1']
 
-        st.success(f"""
-        **✅ Optimale Gruppe (Q1):**
-        - **{q1_n:.0f} Schüler** ({q1_pct:.1f}% der Stichprobe)
-        - **Durchschnittsleistung:** {q1_perf:.0f} Punkte
-        - **Status:** Förderung aufrechterhalten
-        """)
+            st.success(f"""
+            **✅ Viel Zutrauen, wenig Angst (Q1):**
+            - **{q1_n:.0f} Schüler:innen** ({q1_pct:.1f}% der Stichprobe)
+            - **Durchschnittsleistung:** {q1_perf:.0f} Punkte
+            - **Status:** Stärken erhalten und weiter herausfordern
+            """)
 
         st.divider()
 
@@ -366,12 +349,9 @@ if len(selected_vars) >= 2:
                 f"{ratio:.2f}x einflussreicher als ANXMAT (r = {float(corr_anxmat):.3f})"
             )
 
-        # Finding 4: Risk group
-        if 'quadrant_stats' in locals():
-            findings.append(
-                f"**Risikogruppe:** {q3_n:.0f} Schüler ({q3_pct:.1f}%) mit niedriger "
-                f"Selbstwirksamkeit UND hoher Angst → Priorität für Interventionen"
-            )
+        # Finding 4: Gruppe mit Foerderbedarf (aus den Daten abgeleitet)
+        if 'quad_summary' in locals() and quad_summary.get('complete'):
+            findings.append(quadrant_support_finding(quad_summary))
 
     # Finding 5: Average performance
     mean_perf = df['performance'].mean()
@@ -428,15 +408,15 @@ if len(selected_vars) >= 2:
                 'Theorie': 'Beck (1976): Cognitive Therapy'
             })
 
-    # Risk group intervention
-    if 'ANXMAT' in selected_vars and 'MATHEFF' in selected_vars and 'quadrant_stats' in locals():
-        if q3_pct > 15:
+    # Foerderung bei niedriger Selbstwirksamkeit (Q3 + Q4)
+    if 'ANXMAT' in selected_vars and 'MATHEFF' in selected_vars and 'quad_summary' in locals():
+        if support_pct > 15:
             recommendations.append({
                 'Priorität': '🔴 Hoch',
-                'Bereich': 'Risikogruppen-Intervention',
-                'Maßnahme': 'Individuelle Förderung für Q3-Schüler: Kombination aus Selbstwirksamkeits-Training und Angstbewältigung',
-                'Begründung': f'{q3_pct:.1f}% der Schüler in kritischer Konstellation (niedrige SE + hohe Angst)',
-                'Theorie': 'Differentielle Intervention nach Bedarf'
+                'Bereich': 'Förderung bei niedriger Selbstwirksamkeit',
+                'Maßnahme': 'Gezielte Förderung für Q3 + Q4: Selbstwirksamkeit durch gestufte Erfolgserlebnisse aufbauen; in Q3 zusätzlich Umgang mit Mathe-Angst',
+                'Begründung': f'{support_pct:.1f}% der Schüler:innen mit niedriger Selbstwirksamkeit (Ø {quad_summary["support_perf"]:.0f} Punkte)',
+                'Theorie': 'Bandura (1997): Mastery Experiences'
             })
 
     # General recommendations

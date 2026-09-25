@@ -1,4 +1,6 @@
 import streamlit as st
+from utils.quadrants import assign_quadrants, coverage_caption as quadrant_coverage_caption
+QUADRANT_GROUP_NAMES = {'Q1': 'Q1: Viel Zutrauen, wenig Angst', 'Q2': 'Q2: Viel Zutrauen, viel Angst', 'Q3': 'Q3: Wenig Zutrauen, viel Angst', 'Q4': 'Q4: Wenig Zutrauen, wenig Angst'}
 import pandas as pd
 import numpy as np
 import sys
@@ -575,23 +577,18 @@ with tab4:
             st.stop()
 
         # Calculate medians
-        median_matheff = df['MATHEFF'].median()
-        median_anxmat = df['ANXMAT'].median()
-
-        # Create quadrants
-        df['Gruppe'] = 'Q4: Indifferent'
-        df.loc[(df['MATHEFF'] >= median_matheff) & (df['ANXMAT'] < median_anxmat), 'Gruppe'] = 'Q1: Optimal'
-        df.loc[(df['MATHEFF'] >= median_matheff) & (df['ANXMAT'] >= median_anxmat), 'Gruppe'] = 'Q2: Ambivalent'
-        df.loc[(df['MATHEFF'] < median_matheff) & (df['ANXMAT'] >= median_anxmat), 'Gruppe'] = 'Q3: Risikogruppe'
-        df.loc[(df['MATHEFF'] < median_matheff) & (df['ANXMAT'] < median_anxmat), 'Gruppe'] = 'Q4: Indifferent'
+        # Quadranten (Median-Split, nur vollständige Fälle; FIX4)
+        _q, median_matheff, median_anxmat = assign_quadrants(df)
+        df['Gruppe'] = _q.map(QUADRANT_GROUP_NAMES)
+        st.caption(quadrant_coverage_caption(_q))
 
         # Info box
         st.info(f"""
         **Quadranten-Definition:**
-        - **Q1 (Optimal):** MATHEFF ≥ {median_matheff:.2f} & ANXMAT < {median_anxmat:.2f}
-        - **Q2 (Ambivalent):** MATHEFF ≥ {median_matheff:.2f} & ANXMAT ≥ {median_anxmat:.2f}
-        - **Q3 (Risikogruppe):** MATHEFF < {median_matheff:.2f} & ANXMAT ≥ {median_anxmat:.2f}
-        - **Q4 (Indifferent):** MATHEFF < {median_matheff:.2f} & ANXMAT < {median_anxmat:.2f}
+        - **Q1 (Viel Zutrauen, wenig Angst):** MATHEFF ≥ {median_matheff:.2f} & ANXMAT < {median_anxmat:.2f}
+        - **Q2 (Viel Zutrauen, viel Angst):** MATHEFF ≥ {median_matheff:.2f} & ANXMAT ≥ {median_anxmat:.2f}
+        - **Q3 (Wenig Zutrauen, viel Angst):** MATHEFF < {median_matheff:.2f} & ANXMAT ≥ {median_anxmat:.2f}
+        - **Q4 (Wenig Zutrauen, wenig Angst):** MATHEFF < {median_matheff:.2f} & ANXMAT < {median_anxmat:.2f}
         """)
 
     else:  # Custom
