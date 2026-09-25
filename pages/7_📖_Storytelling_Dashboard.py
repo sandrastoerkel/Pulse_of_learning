@@ -1621,7 +1621,7 @@ def main():
                     y='confidence_score',
                     color='gender_label',
                     title='Confidence Score nach Geschlecht',
-                    labels={'gender_label': 'Geschlecht', 'confidence_score': 'Confidence Score (1-4)'},
+                    labels={'gender_label': 'Geschlecht', 'confidence_score': 'Confidence Score (MATHEFF − ANXMAT, WLE-Einheiten)'},
                     color_discrete_map={'Mädchen': '#FF6B9D', 'Jungen': '#4ECDC4'}
                 )
                 st.plotly_chart(fig, use_container_width=True)
@@ -1640,6 +1640,14 @@ def main():
                 )
                 st.plotly_chart(fig, use_container_width=True)
             
+            st.caption(
+                "So liest du den Confidence Score: Er ist die Differenz zweier PISA-WLE-Indizes "
+                "(Selbstwirksamkeit MATHEFF minus Mathe-Angst ANXMAT), die jeweils auf OECD-Mittel 0 "
+                "und Standardabweichung 1 skaliert sind – keine 1–4-Skala. Höhere Werte = mehr "
+                "Selbstvertrauen im Verhältnis zur Angst; 0 = Selbstwirksamkeit und Angst gleich hoch "
+                "(in Index-Einheiten); negative Werte = die Angst überwiegt."
+            )
+
             # Statistik-Vergleich
             st.subheader("📊 Statistischer Vergleich")
             
@@ -1657,7 +1665,7 @@ def main():
                 trendline='ols',
                 title='Zusammenhang: Math Confidence & Performance',
                 labels={
-                    'confidence_score': 'Confidence Score (1=niedrig, 4=hoch)',
+                    'confidence_score': 'Confidence Score (MATHEFF − ANXMAT, WLE-Einheiten)',
                     'math_score': 'Math Score (PISA)',
                     'gender_label': 'Geschlecht'
                 },
@@ -1684,7 +1692,7 @@ def main():
             fig.update_layout(
                 barmode='overlay',
                 title='Verteilung: Confidence Score nach Geschlecht',
-                xaxis_title='Confidence Score',
+                xaxis_title='Confidence Score (MATHEFF − ANXMAT, WLE-Einheiten)',
                 yaxis_title='Anzahl Schüler',
                 height=400
             )

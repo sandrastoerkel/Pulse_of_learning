@@ -6,7 +6,7 @@ Eine interaktive Streamlit-App zur Analyse von PISA 2022 Daten für Deutschland 
 
 Diese App ermöglicht:
 - 📊 **Explorative Datenanalyse** der PISA 2022 Deutschland-Daten
-- 🔍 **Skalen-Explorer** mit 110 PISA-Skalen (39 mit vollständigen Items)
+- 🔍 **Skalen-Explorer** mit 110 dokumentierten PISA-Skalen (39 mit vollständigen Items); der Datensatz enthält 157 WLE-Skalen und 2,509 Variablen
 - 📝 **Einzelfragen-Ansicht** mit Original-Fragetexten aus dem PISA Skalenhandbuch
 - 📈 **Tiefenanalyse** mit Korrelationen und Gruppenvergleichen
 - 🔬 **Machine Learning Pipeline** mit SHAP-Analysen
@@ -54,8 +54,9 @@ Durchsuche 110 PISA-Skalen nach Kategorien:
 
 ### PISA 2022 Deutschland
 - **Schüler**: 6,116
-- **Variablen**: 1,200+
-- **WLE-Skalen**: 110
+- **Variablen**: 2,509 (Einträge im Codebook, wie auf der Startseite angezeigt)
+- **WLE-Skalen im Datensatz**: 157 (Codebook-Variablen mit „WLE“ im Label, wie auf der Startseite angezeigt)
+- **Dokumentierte Skalen** (`data/skalen_infos/`): 110
   - 39 mit vollständigen Items (398 Einzelfragen)
   - 71 berechnete Indizes
 
